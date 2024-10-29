@@ -46,8 +46,6 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'title', content: 'Adeniran Opeyemi | Datascience portfolio' },
-        { name: 'description', content: 'Adeniran Opeyemi\'s Data Science Portfolio Website from studying Data Science at the University of Essex, UK.' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'theme-color', media: '(prefers-color-scheme: light)', content: 'white' },
         { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#222222' },

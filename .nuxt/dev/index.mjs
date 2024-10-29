@@ -636,7 +636,7 @@ const _LHri9hzwHL = (function(nitro) {
 
 const rootDir = "/Users/adewaleelvah/Documents/elvah/Projects/Data-science eportfolio";
 
-const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"title","content":"Adeniran Opeyemi | Datascience portfolio"},{"name":"description","content":"Adeniran Opeyemi's Data Science Portfolio Website from studying Data Science at the University of Essex, UK."},{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"},{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"white"},{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#222222"}],"link":[{"rel":"icon","href":"/favicon.ico","sizes":"any"},{"rel":"icon","type":"image/svg+xml","href":"/nuxt.svg"},{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],"style":[],"script":[],"noscript":[],"viewport":"width=device-width,initial-scale=1"};
+const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"},{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"white"},{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#222222"}],"link":[{"rel":"icon","href":"/favicon.ico","sizes":"any"},{"rel":"icon","type":"image/svg+xml","href":"/nuxt.svg"},{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],"style":[],"script":[],"noscript":[],"viewport":"width=device-width,initial-scale=1"};
 
 const appRootTag = "div";
 

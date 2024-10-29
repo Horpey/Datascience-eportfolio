@@ -16,6 +16,13 @@ const modules = [
     image: '/images/data-professional.jpg'
   }
 ]
+
+useHead({
+  title: 'Adeniran Opeyemi | Datascience portfolio',
+  meta: [
+    { name: 'description', content: 'Adeniran Opeyemi\'s Data Science Portfolio Website from studying Data Science at the University of Essex, UK.' },
+  ],
+})
 </script>
 
 <template>

@@ -14,7 +14,7 @@ This e-portfolio is designed to:
 
 -   **Projects**: Detailed documentation of significant course-related projects.
 -   **Artifacts**: Key assignments and academic works completed during the program.
--   **About Me**: Information on my professional background and current role at elvah GmbH.
+-   **About Me**: Information on my professional background.
 
 ## Technologies
 

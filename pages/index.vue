@@ -42,8 +42,7 @@ useHead({
       <p class="font-light">
         As a Germany-based 🇩🇪🇪🇺 software engineer at <a href="https://elvah.de/" target="_blank"
           class="text-gray-500 underline">elvah GmbH</a>, my work blends technical proficiency with design
-        insights, especially in the realms of TypeScript and Vue.js. Here, you'll find a collection of my projects,
-        artefacts, and innovative explorations that bridge data science methodologies with practical solutions.
+        insights, especially in the realms of TypeScript and Vue.js. Here, you'll find a curated collection of projects, assignments, and exploratory work that bridges these academic insights with practical solutions.
       </p>
     </div>
   </section>

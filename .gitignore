@@ -7,3 +7,9 @@ dist-ssr
 node_modules
 .idea/
 *.log
+/.env
+coverage
+
+*.iml
+
+src/version.ts

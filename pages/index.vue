@@ -1,9 +1,61 @@
 <script setup lang="ts">
-
+const modules = [
+  {
+    title: 'Deciphering Big Data',
+    description: 'This module explores the diversity of different data types, sources and methods of data collection',
+    image: '/images/big-data.png'
+  },
+  {
+    title: 'Numerical Analysis',
+    description: 'This modulecle introduces key aspects of mathematics and statistics for data science and artificial intelligence.',
+    image: '/images/numerical-analysis.jpg'
+  },
+  {
+    title: 'The Data Professional',
+    description: 'This module introduces the concepts of data ethics, data governance, and the role of the data professional in society.',
+    image: '/images/data-professional.jpg'
+  }
+]
 </script>
 
 <template>
-  <div>
-    <h1 class="bg-red-500 text-3xl">Datascience portfolio</h1>
-  </div>
+  <section>
+    <h1 class="text-5xl md:text-6xl font-bold text-shadow">
+      MSc<br />Data Science E-Portfolio
+    </h1>
+    <div class="mt-4 flex flex-col gap-4">
+      <p class="font-light">
+        Hello, I'm Adeniran Opeyemi. Welcome to my portfolio—a showcase of my journey through the MSc Data Science
+        program at the University of Essex.
+      </p>
+      <p class="font-light">
+        As a Germany-based 🇩🇪🇪🇺 software engineer at elvah GmbH, my work blends technical proficiency with design
+        insights, especially in the realms of TypeScript and Vue.js. Here, you'll find a collection of my projects,
+        artefacts, and innovative explorations that bridge data science methodologies with practical solutions.
+      </p>
+    </div>
+  </section>
+
+  <section class="my-10 min-h-[22rem]">
+    <div>
+      <span class="uppercase tracking-widest">Modules</span>
+      <ul class="mt-4 flex flex-col gap-4">
+        <li v-for="module in modules" :key="module.title">
+         <a href="javascript:void(0)" @click="$toast.info('Please check back later!')" class="flex items-center gap-6 bg-gray-100/50 rounded-3xl p-2 hover:bg-gray-100 transition-colors group">
+          <NuxtImg :src="module.image" :alt="module.title"
+            class="size-16 object-center object-cover rounded-2xl shadow-md group-hover:scale-105 transition-transform duration-300" />
+          <div>
+            <p class="text-lg font-semibold">{{ module.title }}</p>
+            <p class="text-xs text-gray-500">{{ module.description }}</p>
+          </div>
+         </a>
+        </li>
+      </ul>
+    </div>
+  </section>
 </template>
+<style>
+.text-shadow {
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .1), 2px 4px 5px rgba(0, 0, 0, .09), 4px 10px 6px rgba(0, 0, 0, .05), 8px 17px 0px rgba(94, 94, 94, .01)
+}
+</style>

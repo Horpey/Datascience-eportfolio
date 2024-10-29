@@ -1,11 +1,12 @@
 export default defineNuxtConfig({
-  modules: [
-    '@vueuse/nuxt',
-    '@nuxtjs/color-mode',
-    'nuxt-module-eslint-config',
-    '@nuxtjs/tailwindcss',
-  ],
-
+  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', 'nuxt-module-eslint-config', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image'],
+  googleFonts: {
+    families: {
+      Lexend: {
+        wght: '200..900',
+      },
+    },
+  },
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed

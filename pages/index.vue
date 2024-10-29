@@ -3,17 +3,20 @@ const modules = [
   {
     title: 'Deciphering Big Data',
     description: 'This module explores the diversity of different data types, sources and methods of data collection',
-    image: '/images/big-data.png'
+    image: '/images/big-data.png',
+    status: 'In Progress'
   },
   {
     title: 'Numerical Analysis',
     description: 'This modulecle introduces key aspects of mathematics and statistics for data science and artificial intelligence.',
-    image: '/images/numerical-analysis.jpg'
+    image: '/images/numerical-analysis.jpg',
+    status: 'Completed'
   },
   {
     title: 'The Data Professional',
     description: 'This module introduces the concepts of data ethics, data governance, and the role of the data professional in society.',
-    image: '/images/data-professional.jpg'
+    image: '/images/data-professional.jpg',
+    status: 'Completed'
   }
 ]
 
@@ -51,7 +54,7 @@ useHead({
       <ul class="mt-4 flex flex-col gap-4">
         <li v-for="module in modules" :key="module.title">
           <a href="javascript:void(0)" @click="$toast.info('Please check back later!')"
-            class="flex items-center gap-4 bg-gray-100/50 rounded-3xl p-2 hover:bg-gray-100 transition-colors group">
+            class="flex items-center gap-4 bg-gray-100/50 rounded-3xl p-2 hover:bg-gray-100 transition-colors group relative">
             <div class="w-32 md:w-auto">
               <NuxtImg :src="module.image" :alt="module.title"
                 class="w-16 h-16 object-center object-cover rounded-2xl shadow-md group-hover:scale-105 transition-transform duration-300" />
@@ -60,6 +63,10 @@ useHead({
               <p class="text-lg font-semibold">{{ module.title }}</p>
               <p class="text-xs text-gray-500 font-light">{{ module.description }}</p>
             </div>
+
+            <span class="absolute top-3 right-3 text-white px-2 py-1 rounded-full text-[10px]" :class="module.status === 'Completed' ? 'bg-green-500' : 'bg-yellow-500'">
+              {{ module.status }}
+            </span>
           </a>
         </li>
       </ul>

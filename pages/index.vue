@@ -26,10 +26,12 @@ const modules = [
     <div class="mt-4 flex flex-col gap-4">
       <p class="font-light">
         Hello, I'm Adeniran Opeyemi. Welcome to my portfolio—a showcase of my journey through the MSc Data Science
-        program at the <a href="https://www.essex.ac.uk/" target="_blank" class="text-gray-500 underline">University of Essex</a>.
+        program at the <a href="https://www.essex.ac.uk/" target="_blank" class="text-gray-500 underline">University of
+          Essex</a>.
       </p>
       <p class="font-light">
-        As a Germany-based 🇩🇪🇪🇺 software engineer at <a href="https://elvah.de/" target="_blank" class="text-gray-500 underline">elvah GmbH</a>, my work blends technical proficiency with design
+        As a Germany-based 🇩🇪🇪🇺 software engineer at <a href="https://elvah.de/" target="_blank"
+          class="text-gray-500 underline">elvah GmbH</a>, my work blends technical proficiency with design
         insights, especially in the realms of TypeScript and Vue.js. Here, you'll find a collection of my projects,
         artefacts, and innovative explorations that bridge data science methodologies with practical solutions.
       </p>
@@ -41,14 +43,17 @@ const modules = [
       <span class="uppercase tracking-widest">Modules</span>
       <ul class="mt-4 flex flex-col gap-4">
         <li v-for="module in modules" :key="module.title">
-         <a href="javascript:void(0)" @click="$toast.info('Please check back later!')" class="flex items-center gap-6 bg-gray-100/50 rounded-3xl p-2 hover:bg-gray-100 transition-colors group">
-          <NuxtImg :src="module.image" :alt="module.title"
-            class="size-16 object-center object-cover rounded-2xl shadow-md group-hover:scale-105 transition-transform duration-300" />
-          <div>
-            <p class="text-lg font-semibold">{{ module.title }}</p>
-            <p class="text-xs text-gray-500">{{ module.description }}</p>
-          </div>
-         </a>
+          <a href="javascript:void(0)" @click="$toast.info('Please check back later!')"
+            class="flex items-center gap-4 bg-gray-100/50 rounded-3xl p-2 hover:bg-gray-100 transition-colors group">
+            <div class="w-32 md:w-auto">
+              <NuxtImg :src="module.image" :alt="module.title"
+                class="w-16 h-16 object-center object-cover rounded-2xl shadow-md group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div>
+              <p class="text-lg font-semibold">{{ module.title }}</p>
+              <p class="text-xs text-gray-500 font-light">{{ module.description }}</p>
+            </div>
+          </a>
         </li>
       </ul>
     </div>

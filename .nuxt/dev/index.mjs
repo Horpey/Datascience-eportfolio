@@ -26,7 +26,7 @@ import { getContext } from 'file:///Users/adewaleelvah/Documents/elvah/Projects/
 import { captureRawStackTrace, parseRawStackTrace } from 'file:///Users/adewaleelvah/Documents/elvah/Projects/Data-science%20eportfolio/node_modules/.pnpm/errx@0.1.0/node_modules/errx/dist/index.js';
 import { isVNode, version, unref } from 'file:///Users/adewaleelvah/Documents/elvah/Projects/Data-science%20eportfolio/node_modules/.pnpm/vue@3.5.12_typescript@5.6.3/node_modules/vue/index.mjs';
 import { fileURLToPath } from 'node:url';
-import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file:///Users/adewaleelvah/Documents/elvah/Projects/Data-science%20eportfolio/node_modules/.pnpm/ipx@2.1.0/node_modules/ipx/dist/index.mjs';
+import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file:///Users/adewaleelvah/Documents/elvah/Projects/Data-science%20eportfolio/node_modules/.pnpm/ipx@2.1.0_ioredis@5.4.1/node_modules/ipx/dist/index.mjs';
 import { isAbsolute } from 'file:///Users/adewaleelvah/Documents/elvah/Projects/Data-science%20eportfolio/node_modules/.pnpm/pathe@1.1.2/node_modules/pathe/dist/index.mjs';
 import { createServerHead as createServerHead$1, CapoPlugin } from 'file:///Users/adewaleelvah/Documents/elvah/Projects/Data-science%20eportfolio/node_modules/.pnpm/unhead@1.11.10/node_modules/unhead/dist/index.mjs';
 import { defineHeadPlugin } from 'file:///Users/adewaleelvah/Documents/elvah/Projects/Data-science%20eportfolio/node_modules/.pnpm/@unhead+shared@1.11.10/node_modules/@unhead/shared/dist/index.mjs';
@@ -628,7 +628,7 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _LHpUeiEz7Z = (function(nitro) {
+const _LHri9hzwHL = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script$1}<\/script>`);
   });
@@ -653,7 +653,7 @@ const devReducers = {
   URL: (data) => data instanceof URL ? data.toString() : void 0
 };
 const asyncContext = getContext("nuxt-dev", { asyncContext: true, AsyncLocalStorage });
-const _0bzyzQ5Oyh = (nitroApp) => {
+const _aRyg9re7Qe = (nitroApp) => {
   const handler = nitroApp.h3App.handler;
   nitroApp.h3App.handler = (event) => {
     return asyncContext.callAsync({ logs: [], event }, () => handler(event));
@@ -724,16 +724,16 @@ function onConsoleLog(callback) {
 
 const script = "\"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"system\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function u(){if(t.matchMedia&&f(\"\").media!==\"not all\"){for(const o of c)if(f(\":\"+o).matches)return o}return\"light\"}})();function getStorageValue(t,e){switch(t){case\"localStorage\":return window.localStorage.getItem(e);case\"sessionStorage\":return window.sessionStorage.getItem(e);case\"cookie\":return getCookie(e);default:return null}}function getCookie(t){const c=(\"; \"+window.document.cookie).split(\"; \"+t+\"=\");if(c.length===2)return c.pop()?.split(\";\").shift()}";
 
-const _KdUVIsUfl5 = (function(nitro) {
+const _2ZOKcT7oc5 = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
 const plugins = [
-  _LHpUeiEz7Z,
-_0bzyzQ5Oyh,
-_KdUVIsUfl5
+  _LHri9hzwHL,
+_aRyg9re7Qe,
+_2ZOKcT7oc5
 ];
 
 const scheduledTasks = false;
@@ -876,7 +876,7 @@ function publicAssetsURL(...path) {
   return path.length ? joinRelativeURL(publicBase, ...path) : publicBase;
 }
 
-const _t9A8wf = lazyEventHandler(() => {
+const _GZFAvA = lazyEventHandler(() => {
   const opts = useRuntimeConfig().ipx || {};
   const fsDir = opts?.fs?.dir ? (Array.isArray(opts.fs.dir) ? opts.fs.dir : [opts.fs.dir]).map((dir) => isAbsolute(dir) ? dir : fileURLToPath(new URL(dir, globalThis._importMeta_.url))) : void 0;
   const fsStorage = opts.fs?.dir ? ipxFSStorage({ ...opts.fs, dir: fsDir }) : void 0;
@@ -894,12 +894,12 @@ const _t9A8wf = lazyEventHandler(() => {
   return useBase(opts.baseURL, ipxHandler);
 });
 
-const _lazy_KLrQdV = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_JkSWkV = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_KLrQdV, lazy: true, middleware: false, method: undefined },
-  { route: '/_ipx/**', handler: _t9A8wf, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_KLrQdV, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_JkSWkV, lazy: true, middleware: false, method: undefined },
+  { route: '/_ipx/**', handler: _GZFAvA, lazy: false, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_JkSWkV, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

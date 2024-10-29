@@ -26,10 +26,10 @@ const modules = [
     <div class="mt-4 flex flex-col gap-4">
       <p class="font-light">
         Hello, I'm Adeniran Opeyemi. Welcome to my portfolio—a showcase of my journey through the MSc Data Science
-        program at the University of Essex.
+        program at the <a href="https://www.essex.ac.uk/" target="_blank" class="text-gray-500 underline">University of Essex</a>.
       </p>
       <p class="font-light">
-        As a Germany-based 🇩🇪🇪🇺 software engineer at elvah GmbH, my work blends technical proficiency with design
+        As a Germany-based 🇩🇪🇪🇺 software engineer at <a href="https://elvah.de/" target="_blank" class="text-gray-500 underline">elvah GmbH</a>, my work blends technical proficiency with design
         insights, especially in the realms of TypeScript and Vue.js. Here, you'll find a collection of my projects,
         artefacts, and innovative explorations that bridge data science methodologies with practical solutions.
       </p>

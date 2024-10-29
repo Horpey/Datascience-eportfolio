@@ -4,6 +4,6 @@
 
 <template>
   <div>
-    <h1>Datascience portfolio</h1>
+    <h1 class="bg-red-500 text-3xl">Datascience portfolio</h1>
   </div>
 </template>

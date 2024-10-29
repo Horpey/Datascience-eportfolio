@@ -61,4 +61,6 @@ export default defineNuxtConfig({
   eslintConfig: {
     setup: false,
   },
+
+  compatibilityDate: '2024-10-29',
 })

@@ -63,7 +63,7 @@ useHead({
               <p class="text-xs text-gray-500 font-light">{{ module.description }}</p>
             </div>
 
-            <span class="absolute top-3 right-3 text-white px-2 py-1 rounded-full text-[10px]" :class="module.status === 'Completed' ? 'bg-green-500' : 'bg-yellow-500'">
+            <span class="absolute top-3 right-3 text-white px-2 py-1 rounded-full text-[10px] hidden md:block" :class="module.status === 'Completed' ? 'bg-green-500' : 'bg-yellow-500'">
               {{ module.status }}
             </span>
           </a>

@@ -49,6 +49,7 @@
     "highlight.js": "11.10.0",
     "markdown-it": "14.1.0",
     "nuxt": "3.13.2",
+    "nuxt-easy-lightbox": "1.0.2",
     "nuxt-module-eslint-config": "0.1.1",
     "pinia": "2.2.5",
     "sass-embedded": "^1.83.4",

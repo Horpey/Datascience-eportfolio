@@ -64,7 +64,7 @@ const editor = useEditor({
 </script>
 
 <template>
-  <div>
+  <div class="relative -z-10">
     <div
       v-if="editor" class="ProseMirrorWrapper" :class="{
         'border-none': content,

@@ -15,7 +15,7 @@ const props = defineProps<Props>()
 <template>
   <div class="grid grid-cols-12 gap-12 py-8">
     <div class="md:col-span-8">
-      <div class="flex items-center gap-2 mb-4 sticky top-0 bg-white z-10 pt-10 pb-4">
+      <div class="flex items-center gap-2 mb-4 sticky top-0 bg-white pt-10 pb-4">
         <Icon name="mdi:bookmark" class="text-green-500" />
         <h3 class="text-xl font-semibold text-green-500">
           {{ title }}
@@ -41,14 +41,8 @@ const props = defineProps<Props>()
           <p class="font-semibold mb-2">
             Images
           </p>
-          <div class="flex flex-col gap-4">
-            <div v-for="image in props.images" :key="image" class="rounded-lg shadow border border-gray-200 overflow-hidden">
-              <NuxtImg :src="`/images/${image.src}`" :alt="image.alt" class="w-full border-b border-gray-200" />
-              <div class="text-sm py-2 px-4">
-                {{ image.alt }}
-              </div>
-            </div>
-          </div>
+
+          <AppLightBox :images="props.images" />
         </div>
       </div>
     </div>

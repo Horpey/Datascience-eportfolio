@@ -8,6 +8,15 @@ const year = computed(() => new Date().getFullYear())
       <p class="mt-8 text-xs/6 text-gray-600 md:mt-0 mb-4 md:mb-0">
         &copy; {{ year }}. All rights reserved.
       </p>
+      <div class="flex md:justify-center justify-start items-center gap-x-6 md:order-2">
+        <span class="text-xs/6 text-gray-600 size-1.5 rounded-full bg-gray-200" />
+        <a
+          href="https://github.com/Horpey/Datascience-eportfolio"
+          class="text-gray-600 text-xs hover:text-gray-900 transition-colors"
+        >
+          <span>Github Repository</span>
+        </a>
+      </div>
     </div>
   </footer>
 </template>

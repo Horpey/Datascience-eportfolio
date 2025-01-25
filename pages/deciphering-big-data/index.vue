@@ -21,7 +21,7 @@ definePageMeta({
             Deciphering Big Data - E-Portfolio
           </h1>
           <p class="text-lg text-gray-600">
-            This e-portfolio report presents the culmination of my learning experience during the module, highlighting technical tasks, collaborative efforts, and reflective practices that have contributed to my professional development. The report incorporates key Artefacts, a summary of tasks, and a detailed reflection aligned with industry standards and best practices. A working website hosts this e-portfolio and is accessible through the provided link.
+            This e-portfolio report represents the highlight of my learning experience during the module and highlights technical tasks, cooperation efforts and reflection practices that have contributed to my professional development. The report contains important artifacts, a summary of the tasks and a detailed reflection in harmony with industry standards and best practice. A functioning website hosts this e-portfolio and is accessible via the link provided.
           </p>
         </header>
 
@@ -41,7 +41,7 @@ definePageMeta({
             Professional Development
           </h2>
           <p class="text-gray-700 text-sm">
-            This module facilitated my growth in time management, technical proficiency, and critical thinking. I have outlined an action plan to further enhance these skills in the future.
+            This module helped me improve my time management, technical skills and critical thinking. I have designed an action plan to further improve these skills in the future.
           </p>
           <ul class="list-disc text-sm px-6 text-gray-700 mt-4">
             <li>Earn certifications in cloud database technologies.</li>
@@ -54,20 +54,20 @@ definePageMeta({
 
     <div>
       <!-- Learning Outcomes -->
-      <section class="border-t border-gray-200 pt-10 mt-12">
+      <section class="border-t border-gray-200 pt-10">
         <h3 class="text-lg font-semibold text-gray-800">
           Learning Outcomes
         </h3>
         <ul class="list-disc px-6 text-lg text-gray-700 mt-4">
-          <li>Identify and manage challenges, security issues and risks, limitations, and opportunities in data wrangling.</li>
-          <li>Critically analyse data wrangling problems and determine appropriate methodologies, tools, and techniques (involving preparing, cleaning, exploring, creating, optimising and evaluating big data) to solve them.</li>
-          <li>Design, develop and evaluate solutions for processing datasets and solving complex problems in various environments using relevant programming paradigms.</li>
-          <li>Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real life perspectives on team roles and organisation.</li>
+          <li>Identify and manage challenges, security problems and risks, restrictions and opportunities in the course of data.</li>
+          <li>Critically analyse data processing problems and determine appropriate methods, tools and techniques (including big data preparation, cleaning, investigation, creation, optimisation and evaluation) to solve them.</li>
+          <li>Design, develop and evaluate solutions for processing data sets and solving complex problems in diverse environments using relevant programming paradigms.</li>
+          <li>Systematically develop and implement the skills required to be an effective member of a development team in a virtual professional environment and adopt real-world perspectives on team roles and organisation.</li>
         </ul>
       </section>
 
       <section class="mt-10">
-        <NuxtLink to="/deciphering-big-data/Artefacts-and-activities" class="flex items-center gap-2 bg-gray-50 rounded-lg px-4 py-4 hover:border-green-500 hover:text-green-500 border border-gray-300 border-dashed text-gray-700">
+        <NuxtLink to="/deciphering-big-data/Artefacts-and-activities" class="flex items-center gap-2 bg-green-50 rounded-lg px-4 py-4 hover:border-green-500 hover:text-green-500 border border-gray-300 border-dashed text-gray-700">
           <Icon name="ph:bookmark" class="size-6 text-green-500" />
           <span>Click here to view the Artefacts and activities</span>
         </NuxtLink>

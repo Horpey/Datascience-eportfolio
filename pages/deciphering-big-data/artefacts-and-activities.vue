@@ -23,6 +23,7 @@ const { activities, technicalActivities } = useContent()
           v-for="(activity, index) in activities"
           :key="index"
           :title="activity.title"
+          :images="activity.images"
           :content="activity.content"
         />
       </div>
@@ -36,7 +37,6 @@ const { activities, technicalActivities } = useContent()
           v-for="(activity, index) in technicalActivities"
           :key="index"
           :title="activity.title"
-          :description="activity.description"
           :content="activity.content"
           :key-insights="activity.keyInsights"
           :images="activity.images"

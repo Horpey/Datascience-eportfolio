@@ -2,20 +2,34 @@ function useContent() {
   const activities = [
     {
       title: 'Collaborative Discussions',
-      content: `The collaborative discussion forums were instrumental in fostering a deeper understanding of critical data science concepts. Each forum provided opportunities to share insights, respond to peers, and receive valuable tutor feedback. One of the key topics explored was the integration of IoT in data science. Williams (2024) underscores the value of teamwork in fostering problem-solving and knowledge exchange.
+      images: [
+        {
+          src: '/deciphering-big-data/collaborative-discussions/1.png',
+          alt: 'Initial Post',
+        },
+        {
+          src: '/deciphering-big-data/collaborative-discussions/2.png',
+          alt: 'Lecturer Feedback',
+        },
+        {
+          src: '/deciphering-big-data/collaborative-discussions/3.png',
+          alt: 'Follow-Up Contributions',
+        },
+      ],
+      content: `The joint discussion forums made a significant contribution to promoting a deeper understanding of critical data science concepts. Each forum offered the opportunity to exchange findings, respond to colleagues and get valuable feedback from tutors. One of the examined key topics was the integration of IoT into data science. Williams (2024) underlines the value of teamwork in promoting problem solving and the exchange of knowledge.
 
--   **Initial Post:** My contribution began by outlining the scalability of IoT solutions and their potential to streamline real-time data collection. Using examples from the EV charging industry, I highlighted how IoT sensors could monitor energy consumption and enhance operational efficiency.
+-   **Initial Post:** My post began by outlining the scalability of IoT solutions and their potential to streamline real-time data collection. Using examples from the electric vehicle charging industry, I highlighted how IoT sensors can monitor energy consumption and increase operational efficiency.
     
--   **Follow-Up Contributions:** Following peer and tutor feedback, I delved into the challenges posed by IoT, such as data latency, security vulnerabilities, and the costs associated with large-scale deployments. Research into architectural solutions like edge computing and Apache Kafka enriched my understanding of mitigating these challenges effectively.
+-   **Follow-Up Contributions:** Due to the feedback from colleagues and lecturers, I dealt intensively with the challenges that the IoT brings, such as: data latency, security gaps and the costs associated with large -scale provisions. Research on architectural solutions such as Edge Computing and Apache Kafka has enriched my understanding of the effective management of these challenges.
     
--   **Key Ethical Considerations:** Another focus was the ethical implications of IoT data collection. I discussed how adhering to GDPR guidelines could safeguard user data, emphasizing the role of anonymization and encryption. My post encouraged peers to explore the balance between innovation and ethical responsibility.
+-   **Key Ethical Considerations:** Another focus was on the ethical implications of IoT data recording. I have talked about how compliance with the GDPR guidelines can protect user data and emphasizes the role of anonymization and encryption. My contribution encouraged colleagues to explore the balance between innovation and ethical responsibility.
     
 
 **Peer and Tutor Engagement:**
 
--   Engaged with peers by critiquing their suggestions on secure data pipelines and offering alternative solutions like TLS encryption and token-based authentication.
+-   Exchange with colleagues by criticizing their suggestions for secure data pipelines and offering alternative solutions such as TLS encryption and token-based authentication.
     
--   Tutor feedback emphasized practical implementation, prompting me to explore scalable data platforms and integrate this knowledge into my final project.
+-   Instructor feedback emphasized practical implementation and led me to explore scalable data platforms and integrate this knowledge into my final project.
     
 
 **Key Learning Outcomes:**
@@ -25,13 +39,7 @@ function useContent() {
 -   Enhanced my awareness of the ethical and regulatory aspects of data collection.
     
 -   Gained insights into real-world applications of IoT, particularly in managing large datasets for analytics.
-    
-
-**Evidence:**
-
--   Screenshots of initial posts, follow-up contributions, and tutor feedback are available under the “Collaborative Discussions” section of the website.
-    
--   A reflective summary of the discussions is also included as proof of engagement.`,
+    `,
     },
   ]
 
@@ -39,9 +47,22 @@ function useContent() {
     {
       title: 'Normalization Task',
       images: [
-        '/normalization-task/1.png',
-        '/normalization-task/2.jpg',
-        '/normalization-task/3.jpg',
+        {
+          src: '/deciphering-big-data/normalization-task/1.png',
+          alt: 'Python code for normalization',
+        },
+        {
+          src: '/deciphering-big-data/normalization-task/2.png',
+          alt: 'Student\'s table',
+        },
+        {
+          src: '/deciphering-big-data/normalization-task/3.png',
+          alt: 'Courses table',
+        },
+        {
+          src: '/deciphering-big-data/normalization-task/4.png',
+          alt: 'Course Exam Boards table',
+        },
       ],
       keyInsights: [
         'The normalization process is essential for designing scalable databases.',
@@ -66,9 +87,9 @@ function useContent() {
 **Challenges and Resolutions**:
 
 *   **Dependency Identification**:  
-    Initially, identifying all dependencies was complex due to the dataset's size and structure. Iterative analysis and feedback helped clarify these relationships.
+    Due to the size and structure of the data record, it was initially difficult to identify all dependencies. These relationships could be clarified by iterative analyzes and feedback.
 *   **Testing Referenced Integrity**:  
-    Testing primary and foreign key relationships revealed missing connections, which were resolved by revising the table schemas.
+    When testing primary and foreign key relationships, missing connections were identified, which were resolved by revising the table schemas.
 
 **Outcome**:  
 A fully normalized schema adhering to 3NF was implemented. This schema reduced redundancy, improved query efficiency, and maintained data consistency.
@@ -83,7 +104,10 @@ A fully normalized schema adhering to 3NF was implemented. This schema reduced r
     {
       title: 'Web Scraping Task',
       images: [
-        '/data-visualization-task/1.png',
+        {
+          src: '/data-visualization-task/1.png',
+          alt: 'Web Scraping Task',
+        },
       ],
       keyInsights: [
         'Web scraping is a powerful technique for automating data collection but requires careful consideration of website policies and restrictions.',
@@ -126,7 +150,10 @@ The script successfully automated the extraction of over 50 job postings, provid
     {
       title: 'Database Build Task',
       images: [
-        '/data-visualization-task/1.png',
+        {
+          src: '/data-visualization-task/1.png',
+          alt: 'Database Build Task',
+        },
       ],
       keyInsights: [
         'Proper normalization ensures data consistency and reduces redundancy.',
@@ -172,7 +199,10 @@ The database was fully functional, adhering to 3NF principles, with optimized qu
     {
       title: 'API Security Evaluation:',
       images: [
-        '/data-visualization-task/1.png',
+        {
+          src: '/data-visualization-task/1.png',
+          alt: 'API Security Evaluation',
+        },
       ],
       keyInsights: [
         'Security is a continuous process that evolves with new threats and vulnerabilities.',

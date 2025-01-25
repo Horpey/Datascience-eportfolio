@@ -5,20 +5,20 @@ const modules = [
     description: 'This module explores the diversity of different data types, sources and methods of data collection',
     image: '/images/big-data.png',
     link: '/deciphering-big-data',
-    status: 'In Progress',
-  },
-  {
-    title: 'Numerical Analysis',
-    description: 'This modulecle introduces key aspects of mathematics and statistics for data science and artificial intelligence.',
-    image: '/images/numerical-analysis.jpg',
     status: 'Completed',
   },
-  {
-    title: 'The Data Professional',
-    description: 'This module introduces the concepts of data ethics, data governance, and the role of the data professional in society.',
-    image: '/images/data-professional.jpg',
-    status: 'Completed',
-  },
+  // {
+  //   title: 'Numerical Analysis',
+  //   description: 'This modulecle introduces key aspects of mathematics and statistics for data science and artificial intelligence.',
+  //   image: '/images/numerical-analysis.jpg',
+  //   status: 'Completed',
+  // },
+  // {
+  //   title: 'The Data Professional',
+  //   description: 'This module introduces the concepts of data ethics, data governance, and the role of the data professional in society.',
+  //   image: '/images/data-professional.jpg',
+  //   status: 'Completed',
+  // },
 ]
 
 useHead({

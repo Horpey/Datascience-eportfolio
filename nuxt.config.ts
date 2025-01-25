@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', '@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image', 'vue-sonner/nuxt', '@nuxt/icon'],
-
+  ssr: false,
   devtools: {
     enabled: true,
   },

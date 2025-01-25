@@ -21,7 +21,9 @@ definePageMeta({
             Deciphering Big Data - E-Portfolio
           </h1>
           <p class="text-lg text-gray-600">
-            This e-portfolio report represents the highlight of my learning experience during the module and highlights technical tasks, cooperation efforts and reflection practices that have contributed to my professional development. The report contains important artifacts, a summary of the tasks and a detailed reflection in harmony with industry standards and best practice. A functioning website hosts this e-portfolio and is accessible via the link provided.
+            This e-portfolio report represents the highlight of my learning experience during the module and highlights technical tasks, cooperation efforts and reflection practices that have contributed to my professional development. The report contains important artefacts, a summary of the tasks and a detailed <NuxtLink to="/deciphering-big-data/reflection" class="text-green-500 underline">
+              reflection
+            </NuxtLink> in harmony with industry standards and best practice.
           </p>
         </header>
 
@@ -29,7 +31,7 @@ definePageMeta({
         <section class="bg-gray-100 px-3 py-5 rounded-lg mt-6 border border-gray-300 border-dashed flex gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="size-8" viewBox="0 0 256 256"><path d="m213.66 82.34-56-56A8 8 0 0 0 152 24H56a16 16 0 0 0-16 16v176a16 16 0 0 0 16 16h144a16 16 0 0 0 16-16V88a8 8 0 0 0-2.34-5.66ZM160 51.31 188.69 80H160ZM200 216H56V40h88v48a8 8 0 0 0 8 8h48v120Zm-42.34-61.66a8 8 0 0 1 0 11.32l-24 24a8 8 0 0 1-11.32 0l-24-24a8 8 0 0 1 11.32-11.32L120 164.69V120a8 8 0 0 1 16 0v44.69l10.34-10.35a8 8 0 0 1 11.32 0Z" /></svg>
           <p class="text-gray-700 text-sm">
-            A compressed version of the website containing all Artefacts and evidence is available for download.
+            A compressed version of the website containing all artefacts and evidence is available for download.
           </p>
         </section>
       </div>

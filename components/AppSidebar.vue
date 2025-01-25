@@ -7,7 +7,7 @@ const links = [
   },
   {
     title: 'Artefacts and Activities',
-    href: '/deciphering-big-data/Artefacts-and-activities',
+    href: '/deciphering-big-data/artefacts-and-activities',
     icon: 'ph:files',
   },
   {

@@ -1,39 +1,8 @@
 export default defineNuxtConfig({
-  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', 'nuxt-module-eslint-config', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image'],
-  googleFonts: {
-    families: {
-      Lexend: {
-        wght: '200..900',
-      },
-    },
-  },
-  experimental: {
-    // when using generate, payload js assets included in sw precache manifest
-    // but missing on offline, disabling extraction it until fixed
-    payloadExtraction: false,
-    renderJsonPayloads: true,
-    typedPages: true,
-  },
+  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', '@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image', 'vue-sonner/nuxt', '@nuxt/icon'],
 
-  css: [
-    // '@unocss/reset/tailwind.css',
-  ],
-
-  colorMode: {
-    classSuffix: '',
-  },
-
-  nitro: {
-    esbuild: {
-      options: {
-        target: 'esnext',
-      },
-    },
-    prerender: {
-      crawlLinks: false,
-      routes: ['/'],
-      ignore: ['/hi'],
-    },
+  devtools: {
+    enabled: true,
   },
 
   app: {
@@ -53,13 +22,49 @@ export default defineNuxtConfig({
     },
   },
 
-  devtools: {
-    enabled: true,
-  },
+  css: [
+    '~/assets/css/highlight-theme.css',
+  ],
 
-  eslintConfig: {
-    setup: false,
+  colorMode: {
+    classSuffix: '',
+  },
+  experimental: {
+    // when using generate, payload js assets included in sw precache manifest
+    // but missing on offline, disabling extraction it until fixed
+    payloadExtraction: false,
+    renderJsonPayloads: true,
+    typedPages: true,
   },
 
   compatibilityDate: '2024-10-29',
+
+  nitro: {
+    esbuild: {
+      options: {
+        target: 'esnext',
+      },
+    },
+    prerender: {
+      crawlLinks: false,
+      routes: ['/'],
+      ignore: ['/hi'],
+    },
+  },
+
+  eslint: {
+    config: {
+      standalone: false,
+      nuxt: {
+        sortConfigKeys: true,
+      },
+    },
+  },
+  googleFonts: {
+    families: {
+      Geist: {
+        wght: '200..900',
+      },
+    },
+  },
 })

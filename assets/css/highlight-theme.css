@@ -1,0 +1,81 @@
+.hljs-comment,
+pre .hljs-comment,
+pre .hljs-title {
+  color: #999999;
+}
+
+.hljs-red,
+pre .hljs-variable,
+pre .hljs-attribute,
+pre .hljs-tag,
+pre .hljs-regexp,
+pre .hljs-ruby .constant,
+pre .hljs-xml .tag .title,
+pre .hljs-xml .pi,
+pre .hljs-xml .doctype,
+pre .hljs-html .doctype,
+pre .hljs-css .id,
+pre .hljs-css .class,
+pre .hljs-css .pseudo {
+  color: #f2777a;
+}
+
+.hljs-orange,
+pre .hljs-number,
+pre .hljs-preprocessor,
+pre .hljs-built_in,
+pre .hljs-literal,
+pre .hljs-params,
+pre .hljs-constant {
+  color: #f99157;
+}
+
+.hljs-yellow,
+pre .hljs-class,
+pre .hljs-ruby .class .title,
+pre .hljs-css .rules .attribute {
+  color: #ffcc66;
+}
+
+.hljs-green,
+pre .hljs-string,
+pre .hljs-value,
+pre .hljs-inheritance,
+pre .hljs-header,
+pre .hljs-ruby .symbol,
+pre .hljs-xml .cdata {
+  color: #99cc99;
+}
+
+.hljs-aqua,
+pre .hljs-css .hexcolor {
+  color: #66cccc;
+}
+
+.hljs-blue,
+pre .hljs-function,
+pre .hljs-python .decorator,
+pre .hljs-python .title,
+pre .hljs-ruby .function .title,
+pre .hljs-ruby .title .keyword,
+pre .hljs-perl .sub,
+pre .hljs-javascript .title,
+pre .hljs-coffeescript .title {
+  color: #6699cc;
+}
+
+.hljs-purple,
+pre .hljs-keyword,
+pre .hljs-javascript .function {
+  color: #cc99cc;
+}
+
+pre code {
+  display: block;
+  background: #2d2d2d;
+  color: #cccccc;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 10px;
+}

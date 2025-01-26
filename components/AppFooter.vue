@@ -12,6 +12,7 @@ const year = computed(() => new Date().getFullYear())
         <span class="text-xs/6 text-gray-600 size-1.5 rounded-full bg-gray-200" />
         <a
           href="https://github.com/Horpey/Datascience-eportfolio"
+          target="_blank"
           class="text-gray-600 text-xs hover:text-gray-900 transition-colors"
         >
           <span>Github Repository</span>

@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This project is built using **Nuxt 3** and **Tailwind CSS** to showcase my e-portfolio for the module. The professor can view the project locally or by accessing the provided link.
+This project is built using **Nuxt 3** and **Tailwind CSS** to showcase my e-portfolio for the module. The project can be viewed locally or by accessing the provided link.
 
 ---
 

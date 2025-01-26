@@ -1,22 +1,89 @@
-# MSc Data Science E-Portfolio
+## Nuxt 3 Project - README
 
-This website is my e-portfolio for the MSc Data Science program at the University of Essex, showcasing key projects, assignments, and insights from my academic journey. Built with Nuxt and styled with Tailwind CSS, it highlights how I’ve integrated data science concepts with my software engineering background.
+## **Overview**
 
-## Purpose
+This project is built using **Nuxt 3** and **Tailwind CSS** to showcase my e-portfolio for the module. The professor can view the project locally or by accessing the provided link.
 
-This e-portfolio is designed to:
+---
 
-- Demonstrate my proficiency in data science methodologies, tools, and programming.
-- Reflect on my progress and skill development throughout the MSc program.
-- Showcase projects that combine my expertise in software engineering with data science techniques.
+## **Prerequisites**
 
-## Sections
+To set up the project locally, ensure you have the following installed:
 
-- **Projects**: Detailed documentation of significant course-related projects.
-- **Artefacts**: Key assignments and academic works completed during the program.
-- **About Me**: Information on my professional background.
+1.  **Node.js** (version 16.x or later) and **pnpm**
 
-## Technologies
+    - For macOS users, install Node.js using nvm:
 
-- **Framework**: [Nuxt.js](https://nuxt.com) - for a dynamic, server-rendered portfolio.
-- **Styling**: [Tailwind CSS](https://tailwindcss.com) - for a sleek, responsive design.
+      ```plaintext
+      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+      ```
+
+    - For Windows users, install Node.js using fnm:
+
+      ```plaintext
+      winget install Schniz.fnm
+      fnm install 22
+      ```
+
+    - Install pnpm:
+
+      ```plaintext
+      npm install -g pnpm
+      ```
+
+    - Verify installation:
+
+      ```plaintext
+      node -v
+      pnpm -v
+      ```
+
+---
+
+## **Getting Started**
+
+### 1\. **Download and Extract the Project**
+
+- Download the `.zip` file provided and extract it to your desired location.
+
+### 2\. **Install Dependencies**
+
+- Open a terminal and navigate to the extracted project folder:
+
+  ```plaintext
+  cd /path/to/extracted-folder
+  ```
+
+- Install required dependencies:
+
+  ```plaintext
+  pnpm install
+  ```
+
+### 3\. **Run the Development Server**
+
+- Start the Nuxt 3 development server:
+
+  ```plaintext
+  pnpm dev
+  ```
+
+- Access the project in your browser:
+
+  ```plaintext
+  http://localhost:3000
+  ```
+
+---
+
+## **Troubleshooting**
+
+- If you encounter issues, try clearing the `node_modules` folder and reinstalling dependencies:
+
+  ```plaintext
+  rm -rf node_modules
+  pnpm install
+  ```
+
+- Ensure your firewall or antivirus allows access to `localhost:3000`.
+- Refer to the [Nuxt 3 documentation](https://nuxt.com/docs) for additional help.

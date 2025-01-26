@@ -14,7 +14,6 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-
   app: {
     baseURL: '/Datascience-eportfolio',
     buildAssetsDir: 'assets',

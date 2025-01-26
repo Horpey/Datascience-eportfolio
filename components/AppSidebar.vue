@@ -29,7 +29,7 @@ const links = [
 </script>
 
 <template>
-  <aside class="hidden overflow-y-auto lg:block lg:max-h-[calc(100vh-4rem)] lg:sticky lg:top-[4rem] py-8 lg:px-4 lg:-mx-4">
+  <aside class="lg:block lg:max-h-[calc(100vh-4rem)] lg:sticky lg:top-[4rem] py-8 lg:px-4 lg:-mx-4">
     <div class="relative">
       <div class="space-y-6 mb-3 lg:mb-6 -mx-1 lg:mx-0">
         <NuxtLink

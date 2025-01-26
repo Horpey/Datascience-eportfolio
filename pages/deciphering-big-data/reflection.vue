@@ -60,7 +60,7 @@ As I reflect on this module, it is clear that the combination of technical tasks
   <div>
     <section>
       <div class="flex items-center gap-2 mb-4 sticky top-0 bg-white z-10 pt-10">
-        <Icon name="mdi:bookmark" class="text-green-500" />
+        <AppIconSvg name="mdi:bookmark" class="size-6 text-green-500" />
         <h3 class="text-3xl font-semibold text-green-500">
           Reflection
         </h3>

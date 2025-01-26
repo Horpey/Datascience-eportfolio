@@ -32,7 +32,7 @@ Williams, L. (2024). _Collaborative Problem-Solving in Data Science Teams_. Data
         References
       </h2>
 
-      <ContentPreview :content="content" />
+      <ContentPreview class="z-10" :content="content" />
     </section>
   </div>
 </template>

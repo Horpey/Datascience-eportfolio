@@ -10,7 +10,7 @@ const props = defineProps<Props>()
 
 const { visibleRef, indexRef, showImg, onHide } = useLightbox()
 
-const imagesArray = computed(() => props.images.map(image => `/images/${image.src}`))
+const imagesArray = computed(() => props.images.map(image => `images/${image.src}`))
 </script>
 
 <template>

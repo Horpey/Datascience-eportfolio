@@ -33,7 +33,7 @@ useHead({
   <div>
     <section>
       <h1 class="text-5xl md:text-6xl font-bold text-shadow">
-        MSc<br>Data Science E-Portfolio
+        Data Science e-Portfolio
       </h1>
       <div class="mt-4 flex flex-col gap-4">
         <p class="font-light">

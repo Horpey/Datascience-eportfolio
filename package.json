@@ -12,7 +12,8 @@
     "start": "node .output/server/index.mjs",
     "start:generate": "npx serve .output/public",
     "lint": "eslint .",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "deploy:app": "nuxt build --prerender && gh-pages --dotfiles -d .output/public"
   },
   "dependencies": {
     "@tiptap/extension-code-block-lowlight": "2.10.3",
@@ -51,6 +52,7 @@
     "nuxt": "3.13.2",
     "nuxt-easy-lightbox": "1.0.2",
     "nuxt-module-eslint-config": "0.1.1",
+    "nuxt-single-html": "^0.0.1",
     "pinia": "2.2.5",
     "sass-embedded": "^1.83.4",
     "tailwindcss-animate": "1.0.7",

@@ -9,13 +9,15 @@ export default defineNuxtConfig({
     'vue-sonner/nuxt',
     '@nuxt/icon',
     'nuxt-easy-lightbox',
+    'nuxt-single-html',
   ],
-  ssr: false,
   devtools: {
     enabled: true,
   },
 
   app: {
+    baseURL: '/Datascience-eportfolio/',
+    buildAssetsDir: 'assets',
     head: {
       viewport: 'width=device-width,initial-scale=1',
       link: [
@@ -76,5 +78,10 @@ export default defineNuxtConfig({
         wght: '200..900',
       },
     },
+  },
+  singleHtml: {
+    enabled: true,
+    deleteInlinedFiles: true,
+    output: '[name].html',
   },
 })

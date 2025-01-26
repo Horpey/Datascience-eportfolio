@@ -3,7 +3,7 @@ const modules = [
   {
     title: 'Deciphering Big Data',
     description: 'This module explores the diversity of different data types, sources and methods of data collection',
-    image: '/images/big-data.png',
+    image: `images/big-data.png`,
     link: '/deciphering-big-data',
     status: 'Completed',
   },
@@ -57,10 +57,10 @@ useHead({
               class="flex items-center gap-4 bg-gray-100/50 rounded-3xl p-2 hover:bg-gray-100 transition-colors group relative"
             >
               <div class="w-32 md:w-auto">
-                <NuxtImg
+                <img
                   :src="module.image" :alt="module.title"
                   class="w-16 h-16 object-center object-cover rounded-2xl shadow-md group-hover:scale-105 transition-transform duration-300"
-                />
+                >
               </div>
               <div>
                 <p class="text-lg font-semibold">

@@ -4,15 +4,15 @@ function useContent() {
       title: 'Collaborative Discussions',
       images: [
         {
-          src: 'deciphering-big-data/collaborative-discussions/1.png',
+          src: 'collaborative-discussions/1.png',
           alt: 'Initial Post',
         },
         {
-          src: 'deciphering-big-data/collaborative-discussions/2.png',
+          src: 'collaborative-discussions/2.png',
           alt: 'Lecturer Feedback',
         },
         {
-          src: 'deciphering-big-data/collaborative-discussions/3.png',
+          src: 'collaborative-discussions/3.png',
           alt: 'Follow-Up Contributions',
         },
       ],
@@ -48,19 +48,19 @@ function useContent() {
       title: 'Normalization Task',
       images: [
         {
-          src: 'deciphering-big-data/normalization-task/1.png',
+          src: 'normalization-task/1.png',
           alt: 'Python code for normalization',
         },
         {
-          src: 'deciphering-big-data/normalization-task/2.png',
+          src: 'normalization-task/2.png',
           alt: 'Student\'s table',
         },
         {
-          src: 'deciphering-big-data/normalization-task/3.png',
+          src: 'normalization-task/3.png',
           alt: 'Courses table',
         },
         {
-          src: 'deciphering-big-data/normalization-task/4.png',
+          src: 'normalization-task/4.png',
           alt: 'Course Exam Boards table',
         },
       ],
@@ -105,11 +105,11 @@ A fully normalized schema adhering to 3NF was implemented. This schema reduced r
       title: 'Web Scraping Task',
       images: [
         {
-          src: 'deciphering-big-data/web-scraping/1.png',
+          src: 'web-scraping/1.png',
           alt: 'Python code for web scraping',
         },
         {
-          src: 'deciphering-big-data/web-scraping/2.png',
+          src: 'web-scraping/2.png',
           alt: 'JSON file for web scraping',
         },
       ],
@@ -149,27 +149,27 @@ The script successfully automated the extraction of over 15 job postings, provid
       title: 'Database Build Task',
       images: [
         {
-          src: 'deciphering-big-data/database-build/1.png',
+          src: 'database-build/1.png',
           alt: 'SQL script for create tables',
         },
         {
-          src: 'deciphering-big-data/database-build/2.png',
+          src: 'database-build/2.png',
           alt: 'SQL script for populate tables',
         },
         {
-          src: 'deciphering-big-data/database-build/3.png',
+          src: 'database-build/3.png',
           alt: 'SQL script for test queries',
         },
         {
-          src: 'deciphering-big-data/database-build/4.png',
+          src: 'database-build/4.png',
           alt: 'Students table',
         },
         {
-          src: 'deciphering-big-data/database-build/5.png',
+          src: 'database-build/5.png',
           alt: 'Courses table',
         },
         {
-          src: 'deciphering-big-data/database-build/6.png',
+          src: 'database-build/6.png',
           alt: 'Teachers table',
         },
       ],
@@ -212,11 +212,11 @@ The database was fully functional and adhered to 3NF principles with optimized q
       title: 'API Security Evaluation',
       images: [
         {
-          src: 'deciphering-big-data/api-security-evaluation/1.png',
+          src: 'api-security-evaluation/1.png',
           alt: 'API Security Requirements Spec 1',
         },
         {
-          src: 'deciphering-big-data/api-security-evaluation/2.png',
+          src: 'api-security-evaluation/2.png',
           alt: 'API Security Requirements Spec 2',
         },
       ],

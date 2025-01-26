@@ -1,4 +1,4 @@
-## Nuxt 3 Project - README
+## Data Science e-portfolio - README
 
 ## **Overview**
 

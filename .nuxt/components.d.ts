@@ -3,6 +3,7 @@ import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
       'AppFooter': typeof import("../components/AppFooter.vue")['default']
+    'AppIconSvg': typeof import("../components/AppIconSvg.vue")['default']
     'AppLightBox': typeof import("../components/AppLightBox.vue")['default']
     'AppNavbar': typeof import("../components/AppNavbar.vue")['default']
     'AppPortfolioSection': typeof import("../components/AppPortfolioSection.vue")['default']
@@ -37,6 +38,7 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/components/server-placeholder")['default']>
     'Toaster': IslandComponent<typeof import("../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/components/server-placeholder")['Toaster']>
       'LazyAppFooter': typeof import("../components/AppFooter.vue")['default']
+    'LazyAppIconSvg': typeof import("../components/AppIconSvg.vue")['default']
     'LazyAppLightBox': typeof import("../components/AppLightBox.vue")['default']
     'LazyAppNavbar': typeof import("../components/AppNavbar.vue")['default']
     'LazyAppPortfolioSection': typeof import("../components/AppPortfolioSection.vue")['default']
@@ -77,6 +79,7 @@ declare module 'vue' {
 }
 
 export const AppFooter: typeof import("../components/AppFooter.vue")['default']
+export const AppIconSvg: typeof import("../components/AppIconSvg.vue")['default']
 export const AppLightBox: typeof import("../components/AppLightBox.vue")['default']
 export const AppNavbar: typeof import("../components/AppNavbar.vue")['default']
 export const AppPortfolioSection: typeof import("../components/AppPortfolioSection.vue")['default']
@@ -111,6 +114,7 @@ export const NuxtIsland: typeof import("../node_modules/.pnpm/nuxt@3.13.2_@parce
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const Toaster: IslandComponent<typeof import("../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/components/server-placeholder")['Toaster']>
 export const LazyAppFooter: typeof import("../components/AppFooter.vue")['default']
+export const LazyAppIconSvg: typeof import("../components/AppIconSvg.vue")['default']
 export const LazyAppLightBox: typeof import("../components/AppLightBox.vue")['default']
 export const LazyAppNavbar: typeof import("../components/AppNavbar.vue")['default']
 export const LazyAppPortfolioSection: typeof import("../components/AppPortfolioSection.vue")['default']

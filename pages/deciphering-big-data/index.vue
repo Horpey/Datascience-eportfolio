@@ -70,7 +70,7 @@ definePageMeta({
 
       <section class="mt-10">
         <NuxtLink to="/deciphering-big-data/Artefacts-and-activities" class="flex items-center gap-2 bg-green-50 rounded-lg px-4 py-4 hover:border-green-500 hover:text-green-500 border border-gray-300 border-dashed text-gray-700">
-          <Icon name="ph:bookmark" class="size-6 text-green-500" />
+          <AppIconSvg name="ph:bookmark" class="size-6 text-green-500" />
           <span>Click here to view the Artefacts and activities</span>
         </NuxtLink>
       </section>

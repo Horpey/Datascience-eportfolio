@@ -71,7 +71,7 @@ As I reflect on this module, it is clear that the combination of technical tasks
 
     <section class="mt-10">
       <NuxtLink to="/deciphering-big-data/references" class="flex items-center gap-2 bg-green-50 rounded-lg px-4 py-4 hover:border-green-500 hover:text-green-500 border border-gray-300 border-dashed text-gray-700">
-        <Icon name="ph:bookmark" class="size-6 text-green-500" />
+        <AppIconSvg name="ph:bookmark" class="size-6 text-green-500" />
         <span>Next: <span class="font-semibold">References</span></span>
       </NuxtLink>
     </section>

@@ -38,7 +38,8 @@ const links = [
           <div
             class="rounded-md p-1 inline-flex ring-inset ring-1 ring-gray-500/50 bg-gray-500/10 text-gray-500 group-hover:ring-green-500 group-hover:bg-green-500/10 group-hover:text-green-500"
           >
-            <Icon :name="link.icon" class="w-4 h-4" />
+            <AppIconSvg :name="link.icon" />
+            <!-- <Icon :name="link.icon" class="w-4 h-4" /> -->
           </div>
           <span>{{ link.title }}</span>
         </NuxtLink>

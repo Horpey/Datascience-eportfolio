@@ -76,7 +76,8 @@ My goal is to become a well-rounded data scientist skilled in advanced database 
     <section class="flex flex-col gap-4">
       <div>
         <div class="flex items-center gap-2 mb-4 sticky top-0 bg-white z-10 pt-10">
-          <Icon name="mdi:bookmark" class="text-green-500" />
+          <!-- <Icon name="mdi:bookmark" class="text-green-500" /> -->
+          <AppIconSvg name="mdi:bookmark" class="size-6 text-green-500" />
           <h3 class="text-3xl font-semibold text-green-500">
             Professional Skills Matrix
           </h3>
@@ -86,7 +87,8 @@ My goal is to become a well-rounded data scientist skilled in advanced database 
 
       <div>
         <div class="flex items-center gap-2 mb-4 sticky top-0 bg-white z-10 pt-10">
-          <Icon name="mdi:bookmark" class="text-green-500" />
+          <!-- <Icon name="mdi:bookmark" class="text-green-500" /> -->
+          <AppIconSvg name="mdi:bookmark" class="size-6 text-green-500" />
           <h3 class="text-3xl font-semibold text-green-500">
             Action Plan
           </h3>
@@ -97,7 +99,7 @@ My goal is to become a well-rounded data scientist skilled in advanced database 
 
     <section class="mt-10">
       <NuxtLink to="/deciphering-big-data/reflection" class="flex items-center gap-2 bg-green-50 rounded-lg px-4 py-4 hover:border-green-500 hover:text-green-500 border border-gray-300 border-dashed text-gray-700">
-        <Icon name="ph:bookmark" class="size-6 text-green-500" />
+        <AppIconSvg name="ph:bookmark" class="size-6 text-green-500" />
         <span>Next: <span class="font-semibold">Reflection</span></span>
       </NuxtLink>
     </section>

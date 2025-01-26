@@ -16,7 +16,8 @@ const props = defineProps<Props>()
   <div class="grid grid-cols-12 gap-12 py-8">
     <div class="md:col-span-8">
       <div class="flex items-center gap-2 mb-4 sticky top-0 bg-white pt-10 pb-4">
-        <Icon name="mdi:bookmark" class="text-green-500" />
+        <!-- <Icon name="mdi:bookmark" class="text-green-500" /> -->
+        <AppIconSvg name="mdi:bookmark" class="size-6 text-green-500" />
         <h3 class="text-xl font-semibold text-green-500">
           {{ title }}
         </h3>

@@ -23,7 +23,7 @@ onMounted(() => {
   <header class="flex items-center w-full bg-white justify-between py-10">
     <div class="min-h-16 flex justify-between items-center w-full">
       <NuxtLink to="/">
-        <img src="/logo.svg" alt="logo" class="h-16">
+        <img src="/logo.svg" alt="logo" class="h-6">
       </NuxtLink>
 
       <div class="flex items-center gap-x-4">

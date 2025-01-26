@@ -13,7 +13,7 @@ const inlineConfig = {
     "fallbackToApi": true,
     "cssSelectorPrefix": "i-",
     "cssWherePseudo": true,
-    "mode": "css",
+    "mode": "svg",
     "attrs": {
       "aria-hidden": true
     },

@@ -1,0 +1,1 @@
+import{e as t,u as o,c as a,t as n,f as r,o as s}from"./CHh-_m52.js";const _=t({__name:"[...all]",setup(u){const e=o();return(c,l)=>(s(),a("p",null," Page "+n(r(e).currentRoute.value.path)+" not found ",1))}});export{_ as default};

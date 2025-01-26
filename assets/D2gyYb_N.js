@@ -1,0 +1,1 @@
+import{_ as t,a as c}from"./CADVGkHL.js";import{_ as n,c as r,b as e,a as _,O as m,o as l}from"./CHh-_m52.js";import"./CNT_xS2t.js";const p={},x={class:"mx-auto max-w-4xl px-4 sm:px-6 xl:max-w-4xl xl:px-0"};function f(o,i){const a=t,s=c;return l(),r("section",x,[e(a),_("main",null,[m(o.$slots,"default")]),e(s)])}const N=n(p,[["render",f]]);export{N as default};

@@ -1,3 +1,8 @@
+<script setup lang="ts">
+const route = useRoute()
+const pageType = computed(() => route.meta.pageType)
+</script>
+
 <template>
   <div>
     <section class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -7,7 +12,7 @@
       <div class="bg-green-500 py-4 mb-10">
         <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <h1 class="text-white text-2xl font-bold">
-            Deciphering Big Data - E-Portfolio
+            {{ pageType }}
           </h1>
         </div>
       </div>

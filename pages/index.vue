@@ -1,6 +1,13 @@
 <script setup lang="ts">
 const modules = [
   {
+    title: 'Visualising Data',
+    description: 'This module introduces the principles of visualisation and the use of tools such as Tableau to create effective visualisations.',
+    image: `images/visualising-data.png`,
+    link: '/visualising-data',
+    status: 'In Progress',
+  },
+  {
     title: 'Deciphering Big Data',
     description: 'This module explores the diversity of different data types, sources and methods of data collection',
     image: `images/big-data.png`,

@@ -1,28 +1,31 @@
 <script setup lang="ts">
+const route = useRoute()
+const pageType = computed(() => route.meta.page)
+
 const links = [
   {
     title: 'Introduction',
-    href: '/deciphering-big-data',
+    href: `/${pageType.value}`,
     icon: 'ph:house',
   },
   {
     title: 'Artefacts and Activities',
-    href: '/deciphering-big-data/artefacts-and-activities',
+    href: `/${pageType.value}/artefacts-and-activities`,
     icon: 'ph:files',
   },
   {
     title: 'Professional Skills Matrix and Action Plan',
-    href: '/deciphering-big-data/professional-skills-matrix-and-action-plan',
+    href: `/${pageType.value}/professional-skills-matrix-and-action-plan`,
     icon: 'ph:strategy',
   },
   {
     title: 'Reflection',
-    href: '/deciphering-big-data/reflection',
+    href: `/${pageType.value}/reflection`,
     icon: 'ph:calendar-star',
   },
   {
     title: 'References',
-    href: '/deciphering-big-data/references',
+    href: `/${pageType.value}/references`,
     icon: 'ph:books',
   },
 ]

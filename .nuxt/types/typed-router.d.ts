@@ -25,5 +25,10 @@ declare module 'vue-router/auto-routes' {
     'deciphering-big-data-professional-skills-matrix-and-action-plan': RouteRecordInfo<'deciphering-big-data-professional-skills-matrix-and-action-plan', '/deciphering-big-data/professional-skills-matrix-and-action-plan', Record<never, never>, Record<never, never>>,
     'deciphering-big-data-references': RouteRecordInfo<'deciphering-big-data-references', '/deciphering-big-data/references', Record<never, never>, Record<never, never>>,
     'deciphering-big-data-reflection': RouteRecordInfo<'deciphering-big-data-reflection', '/deciphering-big-data/reflection', Record<never, never>, Record<never, never>>,
+    'visualising-data': RouteRecordInfo<'visualising-data', '/visualising-data', Record<never, never>, Record<never, never>>,
+    'visualising-data-artefacts-and-activities': RouteRecordInfo<'visualising-data-artefacts-and-activities', '/visualising-data/artefacts-and-activities', Record<never, never>, Record<never, never>>,
+    'visualising-data-professional-skills-matrix-and-action-plan': RouteRecordInfo<'visualising-data-professional-skills-matrix-and-action-plan', '/visualising-data/professional-skills-matrix-and-action-plan', Record<never, never>, Record<never, never>>,
+    'visualising-data-references': RouteRecordInfo<'visualising-data-references', '/visualising-data/references', Record<never, never>, Record<never, never>>,
+    'visualising-data-reflection': RouteRecordInfo<'visualising-data-reflection', '/visualising-data/reflection', Record<never, never>, Record<never, never>>,
   }
 }

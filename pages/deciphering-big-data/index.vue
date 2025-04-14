@@ -8,6 +8,7 @@ useHead({
 
 definePageMeta({
   layout: 'wide',
+  pageType: 'Deciphering Big Data - E-Portfolio',
 })
 </script>
 

@@ -164,6 +164,7 @@ declare global {
   const useTemplateRef: typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['useTemplateRef']
   const useTransitionState: typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['useTransitionState']
   const useUtils: typeof import('../../composables/useUtils')['default']
+  const useVisualisingDataContent: typeof import('../../composables/useVisualisingDataContent')['default']
   const watch: typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['watch']
   const watchEffect: typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['watchEffect']
   const watchPostEffect: typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['watchPostEffect']
@@ -348,6 +349,7 @@ declare module 'vue' {
     readonly useTemplateRef: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['useTemplateRef']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['useTransitionState']>
     readonly useUtils: UnwrapRef<typeof import('../../composables/useUtils')['default']>
+    readonly useVisualisingDataContent: UnwrapRef<typeof import('../../composables/useVisualisingDataContent')['default']>
     readonly watch: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['watch']>
     readonly watchEffect: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['watchEffect']>
     readonly watchPostEffect: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['watchPostEffect']>

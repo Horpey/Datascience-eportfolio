@@ -30,6 +30,7 @@ export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerS
 export { default as useContent } from '../composables/useContent';
 export { useLightbox } from '../composables/useLightbox';
 export { default as useUtils } from '../composables/useUtils';
+export { default as useVisualisingDataContent } from '../composables/useVisualisingDataContent';
 export { useColorMode } from '../node_modules/.pnpm/@nuxtjs+color-mode@3.5.2_magicast@0.3.5_rollup@4.32.0/node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useImage } from '../node_modules/.pnpm/@nuxt+image@1.8.1_db0@0.2.1_ioredis@5.4.2_magicast@0.3.5_rollup@4.32.0/node_modules/@nuxt/image/dist/runtime/composables';
 export { useNuxtDevTools } from '../node_modules/.pnpm/@nuxt+devtools@1.7.0_rollup@4.32.0_vite@5.4.14_@types+node@22.10.10_sass-embedded@1.83.4_ters_nhspefgrvl2c5hxqvagjnvajua/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';

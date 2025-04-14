@@ -10,66 +10,65 @@ definePageMeta({
 })
 
 const matrix = `
-| Skill Category | Skill | Current Proficiency | Target Proficiency | Action Required |
-| --- | --- | --- | --- | --- |
-| Technical | SQL and Database Design | Intermediate | Advanced | Complete advanced SQL courses and projects. |
-|  | API Security | Basic | Intermediate | Study OAuth 2.0, TLS, and conduct penetration tests. |
-|  | Data Visualization Tools | Intermediate | Advanced | Learn Power BI advanced techniques. |
-|  | Python Programming | Intermediate | Advanced | Complete projects focused on data analysis and automation. |
-|  | Web Scraping | Basic | Intermediate | Learn BeautifulSoup, Scrapy, and handle CAPTCHAs effectively. |
-|  | Machine Learning | Beginner | Intermediate | Study supervised and unsupervised learning algorithms. |
-| Interpersonal | Team Collaboration | Intermediate | Advanced | Actively participate in team discussions and retrospectives. |
-|  | Communication Skills | Intermediate | Advanced | Join public speaking workshops. |
-| Professional | Time Management | Intermediate | Advanced | Use advanced task management tools (e.g., Notion, Trello). |
-|  | Critical Thinking | Intermediate | Advanced | Practice analytical problem-solving in real-world scenarios. |
+| Skill Category       | Skill                   | Current Proficiency | Target Proficiency | Action Plan                                                           |
+|----------------------|--------------------------|----------------------|--------------------|-----------------------------------------------------------------------|
+| Time Management      | Task Scheduling          | Intermediate         | Advanced           | Use time-blocking and agile methods for project pacing               |
+| Research             | Literature Use           | Intermediate         | Advanced           | Expand reading to include accessibility and bias in visualisation    |
+| Communication        | Visual Storytelling      | Intermediate         | Advanced           | Practice concise visual storytelling for executive audiences         |
+| Technical            | Data Tools (Plotly, Tableau) | Intermediate     | Advanced           | Learn D3.js and advanced R packages (e.g., ggvis, plotly in R)       |
+| Leadership           | Independent Delivery     | Intermediate         | Advanced           | Mentor peers in group-based modules, lead dashboard design sprints   |
+| Ethical Awareness    | Bias and Inclusion       | Basic                | Advanced           | Implement an ethical review checklist before project submission      |
+
 `
 
 const actionPlan = `
 ### Where do I want to be?
 
-My goal is to become a well-rounded data scientist skilled in advanced database design, API security, machine learning, and effective communication to excel in collaborative and individual projects.
+I want to become a confident and strategic data visualisation practitioner who can lead interface and dashboard design projects within cross-functional teams. I aim to bring clarity and storytelling to data experiences, especially in product environments that require visual decision-making aids.
 
-### What do I want/need to learn?
+### What do I need to learn?
 
-1.  Advanced SQL and relational database optimization techniques.
-2.  Comprehensive understanding of GDPR and API security best practices.
-3.  Advanced Python programming for automation and data science.
-4.  Effective web scraping techniques to gather data efficiently.
-5.  Machine learning fundamentals and practical implementation.
-6.  Enhanced communication and presentation skills for technical topics.
+-   Strengthen technical proficiency in advanced visualisation libraries like D3.js and R Shiny
+    
+-   Deepen understanding of data ethics, visual accessibility, and narrative techniques
+    
+-   Improve the ability to evaluate dashboards using usability heuristics and cognitive load theory
+    
 
 ### What do I have to do?
 
-*   Enroll in an advanced SQL and database course.
-*   Study OAuth 2.0 and TLS encryption mechanisms.
-*   Complete Python projects focusing on automation and data analysis.
-*   Practice web scraping with tools like BeautifulSoup and Scrapy.
-*   Join a public speaking and technical writing workshop.
-*   Participate in Kaggle competitions to build machine-learning skills.
+-   Build portfolio pieces focused on visualisation use cases
+    
+-   Integrate academic literature into design choices
+    
+-   Seek peer critique and mentorship on visualisation projects
+    
+-   Enrol in a certification course in data storytelling or visual analytics
+    
 
 ### What resources or support will I need?
 
-*   Online learning platforms (e.g., Coursera, Udemy).
-*   Mentorship from industry professionals.
-*   Collaboration tools for team projects.
-*   Access to datasets for machine learning practice.
+-   Real-world datasets and sample dashboards for benchmarking
+    
+-   Design communities, visualisation meetups, and online critique forums
+    
+-   Books and lectures on advanced HCI, perception, and design ethics
+    
 
 ### How will I measure success?
 
-1.  Completion of at least two advanced courses with certifications.
-2.  Implementation of secure APIs in a portfolio project.
-3.  Development of at least two web scraping scripts to gather real-world data.
-4.  Successful participation in one Kaggle competition.
-5.  Positive feedback on presentations during team reviews.
+-   Improved clarity, usability, and interactivity of visualisations
+    
+-   Positive feedback from peers, mentors, or users
+    
+-   Increased confidence when justifying design decisions to stakeholders
+    
 
-### Target dates for review and completion:
+### Target dates for review and completion?
 
-*   **SQL Mastery**: Complete by March 2025.
-*   **API Security Knowledge**: Achieve intermediate level by April 2025.
-*   **Python Projects**: Complete two major projects by May 2025.
-*   **Web Scraping Skills**: Develop intermediate proficiency by June 2025.
-*   **Machine Learning Competence**: Achieve intermediate level by August 2025.
-*   **Communication Skills**: Deliver an improved presentation by May 2025.
+-   Progress review in 2 months post-module
+    
+-   Completion of key portfolio and learning goals within 6 months
 `
 </script>
 

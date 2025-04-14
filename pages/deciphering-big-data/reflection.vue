@@ -5,6 +5,8 @@ useHead({
 
 definePageMeta({
   layout: 'wide',
+  page: 'deciphering-big-data',
+  pageType: 'Deciphering Big Data - E-Portfolio',
 })
 
 const content = `Using the framework of Rolfe et al. (2001), this reflective analysis examines the learning journey throughout the module and examines the challenges encountered, lessons learned and their application to future professional development.

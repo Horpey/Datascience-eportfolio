@@ -8,7 +8,7 @@ definePageMeta({
   page: 'visualising-data',
   pageType: 'Visualising Data - E-Portfolio',
 })
-const { activities, technicalActivities } = useContent()
+const { activities, technicalActivities } = useVisualisingDataContent()
 </script>
 
 <template>

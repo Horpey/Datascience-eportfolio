@@ -5,6 +5,8 @@ useHead({
 
 definePageMeta({
   layout: 'wide',
+  page: 'deciphering-big-data',
+  pageType: 'Deciphering Big Data - E-Portfolio',
 })
 
 const content = `Batini, C., & Scannapieco, M. (2016). _Data and Information Quality: Dimensions, Principles and Techniques_. Springer.

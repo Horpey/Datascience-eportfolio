@@ -5,6 +5,8 @@ useHead({
 
 definePageMeta({
   layout: 'wide',
+  page: 'deciphering-big-data',
+  pageType: 'Deciphering Big Data - E-Portfolio',
 })
 
 const matrix = `

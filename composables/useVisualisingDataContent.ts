@@ -15,6 +15,10 @@ function useVisualisingDataContent() {
           src: 'collaborative-discussions/3.png',
           alt: 'Follow-Up Contributions',
         },
+        {
+          src: 'collaborative-discussions/4.png',
+          alt: 'Summary Post',
+        },
       ],
       content: `
 **Peer and Tutor Engagement:**

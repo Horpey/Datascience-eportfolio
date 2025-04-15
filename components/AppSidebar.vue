@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const route = useRoute()
 const pageType = computed(() => route.meta.page)
+console.log(route.meta.page)
 
 const links = [
   {

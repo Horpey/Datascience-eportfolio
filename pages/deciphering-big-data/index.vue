@@ -80,7 +80,7 @@ definePageMeta({
   </div>
 </template>
 
-  <style scoped>
+<style scoped>
   .container {
   max-width: 800px;
 }

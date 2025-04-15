@@ -180,6 +180,47 @@ To understand and implement the process of generating a Receiver Operating Chara
 Successfully implemented the ROC curve from scratch in Python, visualised the trade-off between TPR and FPR, and identified optimal threshold points.
 `,
     },
+    {
+      title: 'Tableau Task',
+      images: [
+        {
+          src: 'tableau-task/1.png',
+          alt: 'Global Education Chart by Blair Wishom',
+        },
+        {
+          src: 'tableau-task/2.png',
+          alt: 'World bank global education by Piyush Nirwan',
+        },
+      ],
+      keyInsights: [
+        'Good dashboards balance overview and drill-down through layered navigation.',
+        'Colour is used to guide attention and distinguish categories effectively.',
+        'Interactive filters are essential for user-driven exploration.',
+        'Consistent use of typography and spacing improves clarity.',
+        'Public dashboards are valuable learning tools for both design and function.',
+      ],
+      content: `
+**Objective**  
+To inspect and reflect on the design, interactivity, and storytelling techniques used in a published Tableau Public dashboard. The aim was to evaluate how professionals use visual elements to communicate insights effectively and to identify best practices for future projects.
+
+**Detailed Steps**
+
+1.  Visited Tableau Public’s Gallery to explore trending dashboards across different domains.
+    
+2.  Selected a public project that visualised global education and literacy statistics.
+    
+3.  Analysed the layout, colour usage, and chart types used in the dashboard.
+    
+4.  Interacted with filters, tooltips, and tabs to understand how user navigation was designed.
+    
+5.  Took notes on techniques that improved clarity, engagement, and insight delivery.
+    
+
+**Challenges and Resolutions**
+
+-   It was initially overwhelming to assess dashboards with multiple tabs and layers.  Focused on one page at a time, breaking down individual charts before assessing the dashboard holistically.
+`,
+    },
   ]
 
   return {

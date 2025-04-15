@@ -43,57 +43,48 @@ During the module, I actively engaged in collaborative discussions, particularly
       title: 'Plotly Task',
       images: [
         {
-          src: 'normalization-task/1.png',
-          alt: 'Python code for normalization',
+          src: 'plotly-task/1.png',
+          alt: 'Ordinary Least Square (OLS) with plotly.express',
         },
         {
-          src: 'normalization-task/2.png',
-          alt: 'Student\'s table',
+          src: 'plotly-task/2.png',
+          alt: 'ML Regression in Dash',
         },
         {
-          src: 'normalization-task/3.png',
-          alt: 'Courses table',
-        },
-        {
-          src: 'normalization-task/4.png',
-          alt: 'Course Exam Boards table',
+          src: 'plotly-task/3.png',
+          alt: 'Simple actual vs predicted plot',
         },
       ],
       keyInsights: [
-        'The normalization process is essential for designing scalable databases.',
-        'Understanding dependencies and relationships between data attributes is critical for eliminating redundancy.',
-        'Normalization ensures data integrity and consistency, aligning with principles outlined by Batini and Scannapieco (2016)',
+        'Plotly supports highly interactive and visually compelling outputs ideal for exploratory analysis.',
+        'Open-source tools like Plotly provide transparency and flexibility, which are essential for real-time analytical tasks.',
+        'Even minor visual changes (e.g., marker size, colour gradients) can affect user perception and interpretability.',
+        'Familiarity with tool documentation is key when troubleshooting or extending visualisation capabilities.',
       ],
-      content: `**Detailed Steps**:
+      content: `
+**Objective**  
+The aim of this activity was to explore the Plotly visualisation library in the context of machine learning, focusing on interactive plots for regression and principal component analysis (PCA). The task encouraged experimentation with graph types, variable configurations, and colour schemes to evaluate how visual adjustments affect data interpretation and user understanding.
 
-1.  **Understanding the Dataset**:
-    *   The dataset included student records with multi-valued attributes such as "Course Name," "Exam Boards," and "Teacher Names." These attributes were not atomic, leading to redundancy and inconsistency.
-2.  **First Normal Form (1NF)**:
-    *   Multi-valued attributes were split into individual rows, ensuring that each cell contained only a single value.
-    *   Example: The attribute "Course Name" listing "Maths, Physics, Computer Science" for a single student was divided into three rows, each representing one course.
-3.  **Second Normal Form (2NF)**:
-    *   Partial dependencies were identified and resolved by separating attributes into distinct tables based on their primary keys.
-    *   A new table was created for "Courses," linking each course to the respective student using a foreign key.
-    *   This ensured that course-specific data, such as "Exam Boards," was no longer repeated unnecessarily.
-4.  **Third Normal Form (3NF)**:
-    *   Transitive dependencies, where non-primary attributes depended on other non-primary attributes, were removed.
-    *   A "Teacher Name" table was created to avoid duplication of teacher assignments across courses, linking back to the "Courses" table.
+**Detailed Steps**
 
-**Challenges and Resolutions**:
+1.  Accessed the Plotly examples for [regression](https://plotly.com/python/ml-regression/) and [PCA](https://plotly.com/python/ai-ml/) visualisation.
+    
+2.  Copied the base code into Visual Studio Code (VSCode) for development.
+    
+3.  Modified variables, datasets, and colours to observe how changes impacted visual output.
+    
+4.  Switched between graph types (e.g., scatter, line, bar) to assess which visual format best conveyed the analytical context.
 
-*   **Dependency Identification**:  
-    Due to the size and structure of the data record, it was initially difficult to identify all dependencies. These relationships could be clarified by iterative analyzes and feedback.
-*   **Testing Referenced Integrity**:  
-    When testing primary and foreign key relationships, missing connections were identified, which were resolved by revising the table schemas.
+**Challenges and Resolutions**
 
-**Outcome**:  
-A fully normalized schema adhering to 3NF was implemented. This schema reduced redundancy, improved query efficiency, and maintained data consistency.
+-   **Challenge**: Some code segments required additional packages not pre-installed in the Colab environment.  
+-   **Resolution**: Installed missing packages via !pip install commands within Colab and confirmed compatibility.
+-   **Challenge**: Adjusting PCA visualisation with unfamiliar dimensional data initially produced unclear outputs.  
+    **Resolution**: Referred to Plotly documentation and community examples to understand required data structure for PCA.
+    
 
-**Deliverables**:
-
-*   SQL scripts for creating and populating the normalized tables.
-*   Queries to test relationships and enforce data integrity.
-*   Screenshots demonstrating schema relationships and test queries.
+**Outcome**  
+Successfully modified and generated interactive regression and PCA plots using Plotly. This activity highlighted the tool’s flexibility and responsiveness, particularly in presenting machine learning results visually. It also helped reinforce the impact of encoding choices and chart types on data interpretation.
 `,
     },
   ]

@@ -87,6 +87,99 @@ The aim of this activity was to explore the Plotly visualisation library in the 
 Successfully modified and generated interactive regression and PCA plots using Plotly. This activity highlighted the tool’s flexibility and responsiveness, particularly in presenting machine learning results visually. It also helped reinforce the impact of encoding choices and chart types on data interpretation.
 `,
     },
+    {
+      title: 'Plotly Developments (Blood Pressure Visualisation)',
+      images: [
+        {
+          src: 'plotly-development/1.png',
+          alt: 'Plotly Blood Pressure Visualisation',
+        },
+        {
+          src: 'plotly-development/2.png',
+          alt: 'Explore Blood Pressure Data',
+        },
+        {
+          src: 'plotly-development/3.png',
+          alt: 'Scatter Plot of Systolic vs Diastolic',
+        },
+      ],
+      keyInsights: [
+        'Interactivity enhances readability and depth in health data visualisation.',
+        'Preprocessing data improves chart clarity and interpretation.',
+        'Choosing the right chart type is essential for matching the analysis goal.',
+        'Thoughtful layout and encoding improve user engagement and insight delivery.',
+      ],
+      content: `
+**Objective**  
+To use Plotly in a Jupyter Notebook to explore and visualise blood pressure data interactively, with a focus on identifying trends and presenting health metrics clearly.
+
+**Detailed Steps**
+
+1.  Loaded the dataset and reviewed the columns (e.g., Systolic, Diastolic, Pulse).
+    
+2.  Created a scatter plot of Systolic vs Diastolic pressure.
+    
+3.  Built a bar chart to show average pulse by age group.
+    
+4.  Customised visuals (colour, axis, hover info) and adjusted layout for clarity.
+    
+5.  Used Pandas for basic preprocessing to support visual grouping.
+    
+
+**Challenges and Resolutions**
+
+-   Visual clutter in scatter plots was reduced using opacity and subplots.
+    
+-   Data grouping issues were resolved by restructuring the age data.
+    
+
+**Outcome**  
+The activity improved my fluency with Plotly and strengthened my understanding of how to use interactivity to explore healthcare datasets.
+`,
+    },
+    {
+      title: 'ROC Curve',
+      images: [
+        {
+          src: 'roc-curve/1.png',
+          alt: 'ROC Curve',
+        },
+      ],
+      keyInsights: [
+        'ROC curves are essential for evaluating model performance beyond accuracy.',
+        'Thresholds directly influence classification bias—lower thresholds may increase recall but also false positives.',
+        'Python and matplotlib provide flexible tools to visualise ROC behaviour manually.',
+        'Visual comparisons against a random baseline highlight model effectiveness.',
+        'The optimal threshold in this case appeared to be 0.84, where TPR remained stable while FPR dropped notably.',
+      ],
+      content: `
+**Objective**  
+To understand and implement the process of generating a Receiver Operating Characteristic (ROC) curve from a simple binary classification dataset, analysing how different thresholds affect classification performance.
+
+**Detailed Steps**
+
+1.  Reviewed a small dataset with predicted probabilities and actual class labels.
+    
+2.  Applied threshold values ranging from 0.26 to 1.00 to classify predictions.
+    
+3.  Calculated True Positives (TP), False Positives (FP), TPR, and FPR at each threshold.
+    
+4.  Plotted the ROC curve using matplotlib.pyplot in Python.
+    
+5.  Added a random classifier reference line (diagonal) for comparison.
+    
+
+**Challenges and Resolutions**
+
+-   Interpreting repeated values in TPR/FPR at similar thresholds required careful plotting.
+    
+-   Used manual verification of confusion matrices to ensure each threshold produced correct results.
+    
+
+**Outcome**  
+Successfully implemented the ROC curve from scratch in Python, visualised the trade-off between TPR and FPR, and identified optimal threshold points.
+`,
+    },
   ]
 
   return {

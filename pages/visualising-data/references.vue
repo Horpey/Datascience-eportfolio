@@ -4,7 +4,7 @@ useHead({
 })
 
 definePageMeta({
-  layout: 'wide',
+  layout: 'visualising-data',
   page: 'visualising-data',
   pageType: 'Visualising Data - E-Portfolio',
 })

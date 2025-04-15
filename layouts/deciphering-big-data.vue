@@ -19,7 +19,7 @@ const pageType = computed(() => route.meta.pageType)
       <section class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <main class="flex flex-col lg:grid lg:grid-cols-10 lg:gap-8 z-30">
           <div class="lg:col-span-2">
-            <AppSidebar />
+            <AppSidebar page="deciphering-big-data" />
           </div>
           <div class="lg:col-span-8">
             <slot />

@@ -1,32 +1,34 @@
 <script setup lang="ts">
-const route = useRoute()
-const pageType = computed(() => route.meta.page)
-console.log(route.meta.page)
+interface Props {
+  page: string
+}
+
+const props = defineProps<Props>()
 
 const links = [
   {
     title: 'Introduction',
-    href: `/${pageType.value}`,
+    href: `/${props.page}`,
     icon: 'ph:house',
   },
   {
     title: 'Artefacts and Activities',
-    href: `/${pageType.value}/artefacts-and-activities`,
+    href: `/${props.page}/artefacts-and-activities`,
     icon: 'ph:files',
   },
   {
     title: 'Professional Skills Matrix and Action Plan',
-    href: `/${pageType.value}/professional-skills-matrix-and-action-plan`,
+    href: `/${props.page}/professional-skills-matrix-and-action-plan`,
     icon: 'ph:strategy',
   },
   {
     title: 'Reflection',
-    href: `/${pageType.value}/reflection`,
+    href: `/${props.page}/reflection`,
     icon: 'ph:calendar-star',
   },
   {
     title: 'References',
-    href: `/${pageType.value}/references`,
+    href: `/${props.page}/references`,
     icon: 'ph:books',
   },
 ]

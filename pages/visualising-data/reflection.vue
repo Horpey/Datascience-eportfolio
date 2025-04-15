@@ -14,10 +14,10 @@ const content = `Using the framework of Rolfe et al. (2001), this reflective ana
 ### WHAT? - Technical and Academic Learning
 
 #### Visualisation Theory and Decision-Making  
-Understanding the grammar and idioms of visualisation was one of the earliest yet most transformative aspects of the course. Applying Munzner’s (2014) framework and Ware's (2021) principles on visual thinking, I began to see how elements such as spatial positioning, colour, and marks play key roles in data interpretation. During the dashboard design draft, I applied these principles to develop a functional and user-friendly EV charging station dashboard. I also referred to Kirk (2019), who emphasizes the need for contextual awareness in visualisation design. I also discussed early drafts of the dashboard with a colleague at work, whose feedback on layout clarity and information flow helped refine my design choices. This informal feedback, while not part of the academic structure, was invaluable in shaping my understanding of visual hierarchy and communication. (See artefact section in e-portfolio.)
+Understanding the grammar and idioms of visualisation was one of the earliest yet most transformative aspects of the course. Applying Munzner’s (2014) framework and Ware's (2021) principles on visual thinking, I began to see how elements such as spatial positioning, colour, and marks play key roles in data interpretation. During the dashboard design draft, I applied these principles to develop a functional and user-friendly EV charging station dashboard. I also referred to Kirk (2019), who emphasizes the need for contextual awareness in visualisation design. I also discussed early drafts of the dashboard with a colleague at work, whose feedback on layout clarity and information flow helped refine my design choices. This informal feedback, while not part of the academic structure, was invaluable in shaping my understanding of visual hierarchy and communication. 
 
 ####  Tool Proficiency: Python, Plotly, Tableau  
-I developed significant proficiency using both open-source and proprietary tools. Plotly, explored through formative exercises, introduced me to interactive visualisation for regression and PCA analysis. I modified code, colours, and graph types, observing how such adjustments impacted narrative clarity. The ROC curve activity further honed my skills in representing classification performance using threshold metrics. (See artefact section in e-portfolio.)
+I developed significant proficiency using both open-source and proprietary tools. Plotly, explored through formative exercises, introduced me to interactive visualisation for regression and PCA analysis. I modified code, colours, and graph types, observing how such adjustments impacted narrative clarity. The ROC curve activity further honed my skills in representing classification performance using threshold metrics. 
 
 Tableau helped me practice rapid dashboard prototyping. Compared to scripting tools, Tableau allowed for quick exploration of layout, interactivity, and filters. These experiences collectively enhanced my confidence in choosing tools based on audience and context, a key aspect in professional data work (Few, 2018).
 
@@ -30,7 +30,7 @@ To inform design decisions, I explored both academic and practitioner literature
 Initially, I struggled to apply abstract visualisation theory to practical tasks. This led to moments of frustration and hesitation. However, through iterative trial-and-error, particularly in the blood pressure Plotly task, I became more comfortable working through ambiguity. Motivation came from tangible improvements in output and positive reinforcement through feedback, which validated my growing expertise.
 
 #### Collaboration and Feedback  
-A valuable moment was the collaborative discussion on Ryanair and EasyJet's websites. I analysed visual elements like data representation and colour schemes. Following my tutor’s feedback on minimising keystrokes, I critically considered the impact of iconography and responded with references to Munzner (2014) and Ware (2021). This exchange helped me understand that visualisation is not only about visual encoding but also about cognitive load and interaction design. (See artefact section in e-portfolio.)
+A valuable moment was the collaborative discussion on Ryanair and EasyJet's websites. I analysed visual elements like data representation and colour schemes. Following my tutor’s feedback on minimising keystrokes, I critically considered the impact of iconography and responded with references to Munzner (2014) and Ware (2021). This exchange helped me understand that visualisation is not only about visual encoding but also about cognitive load and interaction design. 
 
 #### Independent Learning and Research  
 In developing a dashboard and engaging with formative activities, I conducted independent research on best practices in visual hierarchy, dashboard usability, and ethical storytelling. This not only deepened my theoretical knowledge but also improved my ability to critique my work and recognise gaps.
@@ -46,7 +46,7 @@ Using Rolfe et al. (2001) and a contemporary adaptation of Kolb's experiential l
 
 Formative exercises were instrumental in developing my technical foundation. In the Plotly ML visualisation activity, I experimented with regression and PCA visualisation, adjusting chart elements and evaluating their impact. The ROC curve exercise enhanced my understanding of classification models, translating theoretical evaluation into meaningful visuals.
 
-The blood pressure notebook activity allowed me to apply visual storytelling techniques to real-world data, making decisions on chart types, interaction, and emphasis. Tableau development further demonstrated my growing capacity for visual coherence and audience-focused design. (See artefact section in e-portfolio.)
+The blood pressure notebook activity allowed me to apply visual storytelling techniques to real-world data, making decisions on chart types, interaction, and emphasis. Tableau development further demonstrated my growing capacity for visual coherence and audience-focused design. 
 
   
 

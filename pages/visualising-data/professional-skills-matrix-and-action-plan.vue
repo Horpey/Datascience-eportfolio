@@ -99,7 +99,7 @@ I want to become a confident and strategic data visualisation practitioner who c
     </section>
 
     <section class="mt-10">
-      <NuxtLink to="/deciphering-big-data/reflection" class="flex items-center gap-2 bg-green-50 rounded-lg px-4 py-4 hover:border-green-500 hover:text-green-500 border border-gray-300 border-dashed text-gray-700">
+      <NuxtLink to="/visualising-data/reflection" class="flex items-center gap-2 bg-green-50 rounded-lg px-4 py-4 hover:border-green-500 hover:text-green-500 border border-gray-300 border-dashed text-gray-700">
         <AppIconSvg name="ph:bookmark" class="size-6 text-green-500" />
         <span>Next: <span class="font-semibold">Reflection</span></span>
       </NuxtLink>

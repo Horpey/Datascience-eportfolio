@@ -1,11 +1,18 @@
 <script setup lang="ts">
 const modules = [
   {
+    title: 'Machine Learning',
+    description: 'This module introduces the principles of machine learning and the use of tools such as Python and R to create effective machine learning models.',
+    image: `images/machine-learning.png`,
+    link: '/machine-learning',
+    status: 'In Progress',
+  },
+  {
     title: 'Visualising Data',
     description: 'This module introduces the principles of visualisation and the use of tools such as Tableau to create effective visualisations.',
     image: `images/visualising-data.png`,
     link: '/visualising-data',
-    status: 'In Progress',
+    status: 'Completed',
   },
   {
     title: 'Deciphering Big Data',

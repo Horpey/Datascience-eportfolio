@@ -29,6 +29,7 @@ export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId
 export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerSeoMeta, useServerHeadSafe } from '@unhead/vue';
 export { default as useContent } from '../composables/useContent';
 export { useLightbox } from '../composables/useLightbox';
+export { default as useMachineLearningContent } from '../composables/useMachineLearningContent';
 export { default as useUtils } from '../composables/useUtils';
 export { default as useVisualisingDataContent } from '../composables/useVisualisingDataContent';
 export { useColorMode } from '../node_modules/.pnpm/@nuxtjs+color-mode@3.5.2_magicast@0.3.5_rollup@4.32.0/node_modules/@nuxtjs/color-mode/dist/runtime/composables';

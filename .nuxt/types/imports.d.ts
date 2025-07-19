@@ -116,6 +116,7 @@ declare global {
   const useLightbox: typeof import('../../composables/useLightbox')['useLightbox']
   const useLink: typeof import('../../node_modules/.pnpm/vue-router@4.5.0_vue@3.5.13_typescript@5.6.3_/node_modules/vue-router')['useLink']
   const useLoadingIndicator: typeof import('../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/composables/loading-indicator')['useLoadingIndicator']
+  const useMachineLearningContent: typeof import('../../composables/useMachineLearningContent')['default']
   const useModel: typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['useModel']
   const useNuxtApp: typeof import('../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/nuxt')['useNuxtApp']
   const useNuxtData: typeof import('../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']
@@ -301,6 +302,7 @@ declare module 'vue' {
     readonly useLightbox: UnwrapRef<typeof import('../../composables/useLightbox')['useLightbox']>
     readonly useLink: UnwrapRef<typeof import('../../node_modules/.pnpm/vue-router@4.5.0_vue@3.5.13_typescript@5.6.3_/node_modules/vue-router')['useLink']>
     readonly useLoadingIndicator: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/composables/loading-indicator')['useLoadingIndicator']>
+    readonly useMachineLearningContent: UnwrapRef<typeof import('../../composables/useMachineLearningContent')['default']>
     readonly useModel: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.6.3/node_modules/vue')['useModel']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/nuxt')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.5.0_@types+node@22.10.10_db0@0.2.1_eslint@9.18.0_jiti@2.4.2__io_raec47c4tvr66ashgrjz2voqoa/node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']>

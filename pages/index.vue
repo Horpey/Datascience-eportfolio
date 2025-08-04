@@ -1,11 +1,18 @@
 <script setup lang="ts">
 const modules = [
   {
+    title: 'Research Methods and Professional Practice',
+    description: 'This module explores research methodologies, ethical considerations, and professional practices essential for data science research and industry applications.',
+    image: `images/research-methods.png`,
+    link: '/research-methods',
+    status: 'In progress',
+  },
+  {
     title: 'Machine Learning',
     description: 'This module introduces the principles of machine learning and the use of tools such as Python and R to create effective machine learning models.',
     image: `images/machine-learning.png`,
     link: '/machine-learning',
-    status: 'In Progress',
+    status: 'Completed',
   },
   {
     title: 'Visualising Data',

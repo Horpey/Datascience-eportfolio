@@ -58,7 +58,7 @@ useHead({
       </h1>
       <div class="mt-4 flex flex-col gap-4">
         <p class="font-light">
-          Welcome to this portfolio—a showcase of my journey through the MSc Data Science
+          Welcome to this portfolio, a showcase of my journey through the MSc Data Science
           program at the <a href="https://www.essex.ac.uk/" target="_blank" class="text-gray-500 underline">University of
             Essex</a>.
         </p>

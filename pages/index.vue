@@ -3,7 +3,7 @@ const modules = [
   {
     title: 'Research Methods and Professional Practice',
     description: 'This module explores research methodologies, ethical considerations, and professional practices essential for data science research and industry applications.',
-    image: `images/research-methods.png`,
+    image: `images/research-methods.webp`,
     link: '/research-methods',
     status: 'In progress',
   },

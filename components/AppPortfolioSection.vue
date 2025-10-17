@@ -2,6 +2,10 @@
 interface Props {
   title: string
   content?: string
+  files?: {
+    src: string
+    alt: string
+  }[]
   images?: {
     src: string
     alt: string
@@ -36,6 +40,14 @@ const props = defineProps<Props>()
               {{ insight }}
             </li>
           </ul>
+        </div>
+
+        <div v-if="props.files" class="mt-4">
+          <p class="font-semibold mb-2">
+            Files
+          </p>
+
+          <!-- TODO: Files Listing and preview  -->
         </div>
 
         <div v-if="props.images" class="mt-4">

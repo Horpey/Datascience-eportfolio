@@ -47,7 +47,7 @@ const props = defineProps<Props>()
             Files
           </p>
 
-          <!-- TODO: Files Listing and preview  -->
+          <AppFileList :files="props.files" />
         </div>
 
         <div v-if="props.images" class="mt-4">

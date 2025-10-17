@@ -1,4 +1,4 @@
-export default function useMachineLearningContent() {
+export default function useResearchMethodsContent() {
   const activities = [
     {
       title: 'Collaborative Learning Discussion 1',
@@ -38,7 +38,7 @@ Engagement with my peers, Valentina Mercieca and Dalbir Singh, enriched the disc
       title: 'Reflective Activity 2 - Inappropriate Use of Surveys',
       files: [
         {
-          src: 'reflective-activity-2/draft.pdf',
+          src: 'research-methods/reflective-activity-2/draft.pdf',
           alt: 'Draft',
         },
       ],

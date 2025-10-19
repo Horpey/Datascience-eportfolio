@@ -1,6 +1,21 @@
 <script setup lang="ts">
 const route = useRoute()
 const pageType = computed(() => route.meta.pageType)
+
+const artefacts = [
+  {
+    title: 'Collaborative Learning Discussion 1',
+    slug: 'collaborative-learning-discussion-1',
+  },
+  {
+    title: 'Collaborative Learning Discussion 2',
+    slug: 'collaborative-learning-discussion-2',
+  },
+  {
+    title: 'Collaborative Learning Discussion 3',
+    slug: 'collaborative-learning-discussion-3',
+  },
+]
 </script>
 
 <template>
@@ -19,7 +34,7 @@ const pageType = computed(() => route.meta.pageType)
       <section class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <main class="flex flex-col lg:grid lg:grid-cols-10 lg:gap-8 z-30">
           <div class="lg:col-span-2">
-            <AppSidebar page="research-methods" />
+            <AppSidebar page="research-methods" :artefacts="artefacts" />
           </div>
           <div class="lg:col-span-8">
             <slot />

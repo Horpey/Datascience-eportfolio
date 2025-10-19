@@ -1,6 +1,10 @@
 <script setup lang="ts">
 interface Props {
   page: string
+  artefacts?: {
+    title: string
+    slug: string
+  }[]
 }
 
 const props = defineProps<Props>()

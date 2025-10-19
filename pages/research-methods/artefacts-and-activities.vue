@@ -33,7 +33,7 @@ const { activities, technicalActivities } = useResearchMethodsContent()
       </div>
 
       <p class="bg-gray-100 rounded-2xl px-6 py-4 my-10 font-semibold text-gray-800 tracking-widest border border-gray-300 border-dashed">
-        TECHNICAL ACTIVITIES
+        E-PORTFOLIO ACTIVITIES
       </p>
 
       <div class="space-y-4 divide-y divide-gray-200">

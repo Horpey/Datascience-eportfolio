@@ -2,6 +2,10 @@
 interface Props {
   title: string
   content?: string
+  files?: {
+    src: string
+    alt: string
+  }[]
   images?: {
     src: string
     alt: string
@@ -10,16 +14,23 @@ interface Props {
 }
 
 const props = defineProps<Props>()
+
+// Generate a slug from the title for the ID
+const sectionId = computed(() =>
+  props.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''),
+)
 </script>
 
 <template>
-  <div class="md:grid grid-cols-12 gap-12 py-8">
+  <div :id="sectionId" class="md:grid grid-cols-12 gap-12 py-8">
     <div class="md:col-span-8 col-span-12">
       <div class="flex items-center gap-2 mb-4 sticky top-0 bg-white pt-10 pb-4">
         <!-- <Icon name="mdi:bookmark" class="text-green-500" /> -->
         <AppIconSvg name="mdi:bookmark" class="size-6 text-green-500" />
         <h3 class="text-xl font-semibold text-green-500">
-          {{ title }}
+          <a :href="`#${sectionId}`" class="hover:text-green-600 transition-colors">
+            {{ title }}
+          </a>
         </h3>
       </div>
       <ContentPreview :content="props.content" />
@@ -36,6 +47,14 @@ const props = defineProps<Props>()
               {{ insight }}
             </li>
           </ul>
+        </div>
+
+        <div v-if="props.files" class="mt-4">
+          <p class="font-semibold mb-2">
+            Files
+          </p>
+
+          <AppFileList :files="props.files" />
         </div>
 
         <div v-if="props.images" class="mt-4">

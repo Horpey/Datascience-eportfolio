@@ -50,7 +50,7 @@ definePageMeta({
             Professional Development
           </h2>
           <p class="text-gray-700 text-sm">
-            Through this module, I expect to enhance and evidence the following professional capacities:
+            Through this module, I have enhanced and evidenced the following professional capacities:
           </p>
           <ul class="list-disc text-sm px-6 text-gray-700 mt-4">
             <li>Research synthesis and critical analysis capabilities</li>

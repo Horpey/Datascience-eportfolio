@@ -173,7 +173,7 @@ The review successfully met core learning objectives by demonstrating critical s
       files: [
         {
           src: 'research-methods/research-proposal/proposal.pdf',
-          alt: 'Research Proposal',
+          alt: 'Research Proposal Presentation',
         },
       ],
       images: [
@@ -201,10 +201,6 @@ The proposal exhibited robust critical thinking through detailed analysis of:
 
 Future work could expand comparative analysis of governance models and deeper exploration of innovation-regulation dynamics.
 
-**Communication Excellence**
-The proposal maintained professional clarity while handling complex concepts, making it accessible to diverse stakeholders (clinicians, developers, policymakers). Visual elements and narrative structure effectively supported key arguments and methodological approach.
-
-**Structural Integrity**
 All core components were thoroughly addressed:
 - Research problem definition
 - Aims and objectives
@@ -214,8 +210,6 @@ All core components were thoroughly addressed:
 - Ethical considerations
 - Artifact specification
 - 10-week project timeline
-
-The proposed governance framework artifact aligned well with research objectives.
       `,
     },
 
@@ -406,7 +400,7 @@ Given the strong evidence of a difference, the choice of diet appears to have a 
         'Graphical representation complemented and reinforced findings from statistical summaries',
       ],
       content: `
-**Chart Worksheet Exercises*
+**Chart Worksheet Exercises**
 I completed Exercise 9.1 (brand preferences in two demographic areas) and Exercise 9.2 (species prevalence across two locations). Below are my findings:
 
 **Exercise 9.1 - Brand Preferences Analysis:**

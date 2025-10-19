@@ -17,7 +17,7 @@ const matrix = `
 | Academic Writing     | Structuring and Presenting Research Reports     | Intermediate       | Advanced           | Enhance academic writing by integrating critical synthesis, referencing accuracy (Harvard style), and coherence across sections.    |
 | Professional Communication | Presenting Research Findings              | Beginner           | Intermediate       | Develop clarity in both written and oral communication through academic presentations and peer feedback sessions.                   |
 | Reflective Practice  | Applying Reflection Frameworks (e.g., Rolfe, Gibbs) | Beginner      | Intermediate       | Use reflective models to critically evaluate learning experiences and professional development.                                     |
-| Data Management      | Data Collection and Governance                  | Intermediate       | Advanced           | Implement proper data management plans emphasizing validity, reliability, and compliance with GDPR and university guidelines.       |
+| Data Management      | Data Collection and Governance                  | Intermediate       | Advanced           | Implement proper data management plans emphasizing validity, reliability, and compliance with GDPR.       |
 `
 
 const actionPlan = `
@@ -37,8 +37,8 @@ I aim to become a competent and ethical researcher capable of designing, conduct
 
 -   Engage in peer review and collaborative discussions on research ethics
 -   Review university ethics guidelines and practice drafting ethics approval documents
--   Participate in workshops or MOOCs on academic writing and research communication
--   Conduct reflective journaling using Rolfe's model after each module activity
+-   Participate in workshops on academic writing and research communication
+-   Conduct reflective journaling
 -   Prepare short presentations summarising research proposals or findings
 
 ### What resources or support will I need?
